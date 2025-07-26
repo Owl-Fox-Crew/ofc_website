@@ -12,7 +12,9 @@ import { CTASection } from '@/components/home/CTASection';
 import { LeadQuiz } from '@/components/home/LeadQuiz';
 
 export default function HomePage() {
-  useEffect(() => { trackEvent('view_home'); }, []);
+  useEffect(() => {
+    trackEvent('view_home');
+  }, []);
 
   const hero = {
     headline: 'Historias que transforman cómo se comunica tu empresa.',
@@ -25,8 +27,16 @@ export default function HomePage() {
   };
 
   const benefits = {
-    emotional: ['Tu audiencia te reconoce y te recuerda.', 'Tu equipo se alinea.', 'Tu marca se vuelve narrativa, no solo visual.'],
-    strategic: ['Menos contenido irrelevante, más impacto real.', 'Aprovechas presupuestos existentes.', 'Mides, aprendes, mejoras.']
+    emotional: [
+      'Tu audiencia te reconoce y te recuerda.',
+      'Tu equipo se alinea.',
+      'Tu marca se vuelve narrativa, no solo visual.'
+    ],
+    strategic: [
+      'Menos contenido irrelevante, más impacto real.',
+      'Aprovechas presupuestos existentes.',
+      'Mides, aprendes, mejoras.'
+    ]
   };
 
   const easeForYou = {
@@ -60,10 +70,30 @@ export default function HomePage() {
 
   const process = {
     steps: [
-      { id: 1, title: 'Te escuchamos 20’ y te damos claridad.', description: 'Definimos tu objetivo emocional/estratégico.', keystone: 'Objetivo claro' },
-      { id: 2, title: 'Diseñamos tu historia con la duración justa para cuidar tu ROI.', description: 'Guion aprobado + lógica visual.', keystone: 'Guion + lógica visual' },
-      { id: 3, title: 'Producimos con IA, asegurando coherencia visual desde el inicio.', description: 'Storyboard + reel preliminar.', keystone: 'Storyboard + reel' },
-      { id: 4, title: 'Activamos, medimos y volvemos con decisiones claras.', description: 'Informe audiovisual + recomendaciones.', keystone: 'Informe + decisiones' }
+      {
+        id: 1,
+        title: 'Te escuchamos 20’ y te damos claridad.',
+        description: 'Definimos tu objetivo emocional/estratégico.',
+        keystone: 'Objetivo claro'
+      },
+      {
+        id: 2,
+        title: 'Diseñamos tu historia con la duración justa para cuidar tu ROI.',
+        description: 'Guion aprobado + lógica visual.',
+        keystone: 'Guion + lógica visual'
+      },
+      {
+        id: 3,
+        title: 'Producimos con IA, asegurando coherencia visual desde el inicio.',
+        description: 'Storyboard + reel preliminar.',
+        keystone: 'Storyboard + reel'
+      },
+      {
+        id: 4,
+        title: 'Activamos, medimos y volvemos con decisiones claras.',
+        description: 'Informe audiovisual + recomendaciones.',
+        keystone: 'Informe + decisiones'
+      }
     ]
   };
 
@@ -87,6 +117,32 @@ export default function HomePage() {
     ]
   };
 
+  const leadQuiz = {
+    questions: [
+      {
+        question: '¿Qué tipo de video te interesa?',
+        options: ['Cinematográfico', 'Animado', 'Documental']
+      },
+      {
+        question: '¿Cuál es tu objetivo principal?',
+        options: ['Conectar emocionalmente', 'Explicar un producto', 'Inspirar al equipo']
+      },
+      {
+        question: '¿Dónde lo vas a usar?',
+        options: ['Redes', 'Sitio web', 'Presentaciones']
+      },
+      {
+        question: '¿Qué tan largo debería ser?',
+        options: ['30 segundos', '1 minuto', 'Más de 2 minutos']
+      }
+    ],
+    resultMap: {
+      Cinematográfico: 'Serie de branding visual + Reel emocional.',
+      Animado: 'Video explicativo corto + Versión adaptada a RRSS.',
+      Documental: 'Testimonios reales + piezas editoriales para YouTube.'
+    }
+  };
+
   return (
     <>
       <Hero {...hero} />
@@ -96,8 +152,16 @@ export default function HomePage() {
       <section id="proceso" className="py-24 bg-zinc-900/30"><Process {...process} /></section>
       <section id="ecosistema" className="py-24"><EcosystemTeaser chips={chips} copy="No producimos formatos enlatados: elegimos la forma que tu reto necesita. Conócelo en detalle →" /></section>
       <section id="manifiesto" className="py-24 bg-zinc-900/30"><Manifesto {...manifesto} /></section>
-      <section id="cta" className="py-24"><CTASection headline="¿Quieres contar tu historia de marca y transformar cómo te comunicas? Owl Fox Crew es para ti." primaryCta={{ label: 'Agenda tu diagnóstico narrativo gratuito (20’)', href: '#agenda' }} secondaryCta={{ label: 'Hazme 4 preguntas y propón un camino', href: '#quiz' }} /></section>
-      <section id="quiz" className="py-24 bg-zinc-900/30"><LeadQuiz /></section>
+      <section id="cta" className="py-24">
+        <CTASection
+          headline="¿Quieres contar tu historia de marca y transformar cómo te comunicas? Owl Fox Crew es para ti."
+          primaryCta={{ label: 'Agenda tu diagnóstico narrativo gratuito (20’)', href: '#agenda' }}
+          secondaryCta={{ label: 'Hazme 4 preguntas y propón un camino', href: '#quiz' }}
+        />
+      </section>
+      <section id="quiz" className="py-24 bg-zinc-900/30">
+        <LeadQuiz {...leadQuiz} />
+      </section>
     </>
   );
 }
