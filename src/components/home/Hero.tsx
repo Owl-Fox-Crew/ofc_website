@@ -1,20 +1,23 @@
-'use client';
+'use client'
 
-type HeroProps = {
-  headline: string;
-  subheadline: string;
-  videoSrc: string;
-  posterSrc: string;
-  primaryCta: {
-    label: string;
-    href: string;
-  };
-  secondaryCta: {
-    label: string;
-    href: string;
-  };
-  microcopy: string;
-};
+import { motion } from 'framer-motion'
+import { VideoReel } from '@/components/common/VideoReel'
+import { trackEvent } from '@/lib/analytics'
+
+export interface CTA {
+  label: string
+  href: string
+}
+
+export interface HeroProps {
+  headline: string
+  subheadline?: string
+  videoSrc: string
+  posterSrc: string
+  primaryCta?: CTA
+  secondaryCta?: CTA
+  microcopy?: string
+}
 
 export function Hero({
   headline,
@@ -23,38 +26,56 @@ export function Hero({
   posterSrc,
   primaryCta,
   secondaryCta,
-  microcopy,
+  microcopy
 }: HeroProps) {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-        src={videoSrc}
-        poster={posterSrc}
-      />
-      <div className="relative z-10 flex flex-col justify-center items-center h-full text-center text-white bg-black/40 px-6">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">{headline}</h1>
-        <h2 className="text-xl md:text-2xl mb-6">{subheadline}</h2>
-        <div className="flex gap-4 flex-wrap justify-center">
-          <a
-            href={primaryCta.href}
-            className="bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-zinc-200 transition"
+    <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
+      <VideoReel src={videoSrc} poster={posterSrc} />
+      <div className="absolute inset-0 bg-black/40" />
+
+      <div className="relative z-10 max-w-5xl text-center px-6">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+          className="text-4xl md:text-6xl font-semibold leading-tight"
+        >
+          {headline}
+        </motion.h1>
+        {subheadline && (
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.75, delay: 0.1, ease: 'easeOut' }}
+            className="mt-6 text-lg md:text-xl opacity-90"
           >
-            {primaryCta.label}
-          </a>
-          <a
-            href={secondaryCta.href}
-            className="border border-white text-white px-6 py-3 rounded-full font-medium hover:bg-white hover:text-black transition"
-          >
-            {secondaryCta.label}
-          </a>
+            {subheadline}
+          </motion.p>
+        )}
+        {microcopy && (
+          <p className="mt-4 text-sm uppercase tracking-wide opacity-70">{microcopy}</p>
+        )}
+
+        <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
+          {primaryCta && (
+            <a
+              href={primaryCta.href}
+              onClick={() => trackEvent('cta_click_primary', { location: 'hero' })}
+              className="rounded-2xl px-6 py-3 text-lg transition duration-200 bg-white text-black hover:bg-transparent hover:text-white border border-transparent hover:border-white"
+            >
+              {primaryCta.label}
+            </a>
+          )}
+          {secondaryCta && (
+            <a
+              href={secondaryCta.href}
+              onClick={() => trackEvent('cta_click_secondary', { location: 'hero' })}
+              className="rounded-2xl px-6 py-3 text-lg transition duration-200 border border-white text-white hover:bg-white hover:text-black"
+            >
+              {secondaryCta.label}
+            </a>) }
         </div>
-        <p className="mt-8 text-sm text-zinc-300 max-w-md">{microcopy}</p>
       </div>
     </section>
-  );
+  )
 }
