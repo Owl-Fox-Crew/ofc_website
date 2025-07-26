@@ -61,7 +61,7 @@ const easeForYou = {
   },
 };
 
-const cases = [
+const caseItems = [
   {
     videoSrc: '/videos/caso1.mp4',
     poster: '/images/poster1.jpg',
@@ -126,7 +126,7 @@ export default function HomePage() {
       </section>
 
       <section id="casos" className="py-24">
-        <Cases cases={cases} />
+        <Cases items={caseItems} />
       </section>
 
       <section id="proceso" className="py-24 bg-zinc-900/30">
