@@ -1,4 +1,4 @@
-'use client';
+''use client';
 
 import { useEffect } from 'react';
 import { trackEvent } from '@/lib/analytics';
@@ -106,6 +106,11 @@ const manifesto = {
     title: 'Queremos cambiar eso.',
     subtitle: 'Y lo hacemos con historias que emocionan, conmueven y conectan.',
   },
+  bullets: [
+    'Creamos desde lo emocional, no desde lo funcional.',
+    'Narramos con propósito y estética.',
+    'Damos voz a marcas que necesitan algo más que un contenido: necesitan identidad.',
+  ],
 };
 
 export default function HomePage() {
