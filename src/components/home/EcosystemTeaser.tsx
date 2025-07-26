@@ -1,31 +1,18 @@
-'use client';
-
-type Chip = {
-  label: string;
-};
-
-type EcosystemTeaserProps = {
-  chips: Chip[];
-  copy: string;
-};
+export interface EcosystemChip { name: string; href: string }
+export interface EcosystemTeaserProps { chips: EcosystemChip[]; copy: string }
 
 export function EcosystemTeaser({ chips, copy }: EcosystemTeaserProps) {
   return (
-    <div className="max-w-4xl mx-auto px-6 text-center">
-      <h2 className="text-3xl md:text-4xl font-bold mb-6">
-        ¿Qué tipo de historia podría ser la tuya?
-      </h2>
-      <p className="text-zinc-300 mb-8">{copy}</p>
-      <div className="flex flex-wrap justify-center gap-3">
-        {chips.map((chip, index) => (
-          <span
-            key={index}
-            className="bg-zinc-800 text-white px-4 py-2 rounded-full text-sm font-medium"
-          >
-            {chip.label}
-          </span>
+    <div className="container mx-auto px-6 max-w-5xl">
+      <h2 className="sr-only">Teaser del ecosistema</h2>
+      <p className="text-xl md:text-2xl opacity-90 mb-6 max-w-3xl">{copy}</p>
+      <div className="flex flex-wrap gap-2">
+        {chips.map((chip, i) => (
+          <a key={i} href={chip.href} className="rounded-full bg-zinc-800/60 px-4 py-2 text-sm hover:bg-zinc-700">
+            {chip.name}
+          </a>
         ))}
       </div>
     </div>
-  );
+  )
 }
