@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Disallow: /
+
+# Host
+Host: https://staging.owlfoxcrew.com
+
+# Sitemaps
+Sitemap: https://staging.owlfoxcrew.com/sitemap.xml
