@@ -1,21 +1,21 @@
-// src/app/layout.tsx
-import './globals.css';
-import { Header } from '@/components/common/Header';
-import { Footer } from '@/components/common/Footer';
+import type { ReactNode } from 'react'
+import '../app/globals.css'
+import { DefaultSeo } from 'next-seo'
+import { defaultSEO } from '@/lib/seo'
+import { Header } from '@/components/common/Header'
+import { Footer } from '@/components/common/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
-export const metadata = {
-  title: 'Owl Fox Crew — Historias cinematográficas a medida que transforman tu comunicación',
-  description: 'Comunidad creativa que revoluciona el storytelling corporativo. Cinematografía + IA para activar, medir y optimizar tu impacto.',
-};
-
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="es">
-      <body className="bg-black text-white font-sans">
+    <html lang="es" className="dark">
+      <body className="bg-black text-white antialiased">
+        <DefaultSeo {...defaultSEO} />
         <Header />
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
-  );
+  )
 }
