@@ -1,16 +1,31 @@
-// src/components/home/MicroTestimonial.tsx
-type MicroTestimonialProps = {
-  quote: string;
-  author: string;
-  role: string;
-};
+export interface MicroTestimonialVideoProps {
+  author: string
+  role?: string
+  videoUrl: string
+  quote?: string
+}
 
-export function MicroTestimonial({ quote, author, role }: MicroTestimonialProps) {
+export function MicroTestimonialVideo({
+  author,
+  role,
+  videoUrl,
+  quote
+}: MicroTestimonialVideoProps) {
   return (
-    <div className="max-w-2xl mx-auto px-6 py-12 text-center">
-      <blockquote className="text-xl italic text-zinc-300">“{quote}”</blockquote>
-      <p className="mt-4 font-semibold">{author}</p>
-      <p className="text-sm text-zinc-400">{role}</p>
+    <div className="container mx-auto px-6 max-w-3xl">
+      <h2 className="text-2xl font-semibold mb-4">Lo que dicen</h2>
+      <video
+        src={videoUrl}
+        className="w-full rounded-xl"
+        controls
+        muted
+        playsInline
+      />
+      <div className="mt-4 opacity-80 text-sm">
+        <p className="font-medium">{author}</p>
+        {role && <p>{role}</p>}
+        {quote && <p className="mt-2 italic">“{quote}”</p>}
+      </div>
     </div>
-  );
+  )
 }
