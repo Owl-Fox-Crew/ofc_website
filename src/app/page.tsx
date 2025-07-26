@@ -113,6 +113,19 @@ const manifesto = {
   ],
 };
 
+const leadQuiz = {
+  questions: [
+    '¿Querés emocionar o informar?',
+    '¿Querés atraer o convencer?',
+    '¿Tu marca ya tiene una voz clara?',
+    '¿Tu contenido genera orgullo cuando lo compartís?',
+  ],
+  resultMap: {
+    title: 'Tu historia puede ser tu mayor activo.',
+    subtitle: 'Convirtamos juntos tu comunicación en algo poderoso.',
+  },
+};
+
 export default function HomePage() {
   useEffect(() => {
     trackEvent('home_page_view');
@@ -151,7 +164,7 @@ export default function HomePage() {
       </section>
 
       <section id="quiz" className="py-24 bg-zinc-900/30">
-        <LeadQuiz />
+        <LeadQuiz {...leadQuiz} />
       </section>
     </>
   );
