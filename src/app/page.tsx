@@ -1,135 +1,116 @@
-'use client';
+'use client'
 
-import { useEffect } from 'react';
-import { trackEvent } from '@/lib/analytics';
-import { Hero } from '@/components/home/Hero';
-import { Benefits } from '@/components/home/Benefits';
-import { EaseForYou } from '@/components/home/EaseForYou';
-import { Cases } from '@/components/home/Cases';
-import { Process } from '@/components/home/Process';
-import { Manifesto } from '@/components/home/Manifesto';
-import { CTASection } from '@/components/home/CTASection';
-import { LeadQuiz } from '@/components/home/LeadQuiz';
-
-const hero = {
-  headline: 'Creamos historias con calidad cinematográfica',
-  subheadline: 'Revolucionamos el storytelling corporativo',
-  videoSrc: '/videos/hero-video.mp4',
-  posterSrc: '/images/hero-poster.jpg',
-  primaryCta: {
-    label: 'Agenda tu diagnóstico narrativo gratuito (20’)',
-    href: '#agenda',
-  },
-  secondaryCta: {
-    label: 'Hazme 4 preguntas y propón un camino',
-    href: '#quiz',
-  },
-  microcopy: 'Damos voz a tu marca para que conectes con tu audiencia desde lo visual, lo emocional y lo auténtico.',
-};
-
-const benefits = {
-  emotional: [
-    { title: 'Mayor recordación', description: 'Tu marca deja huella emocional en quien la ve.' },
-    { title: 'Conexión profunda', description: 'Generas vínculos humanos, no solo visuales.' },
-    { title: 'Identificación auténtica', description: 'Tu historia refleja tu esencia con honestidad.' },
-  ],
-  strategic: [
-    { title: 'Más visibilidad', description: 'El contenido emocional tiene mayor alcance.' },
-    { title: 'Mejor conversión', description: 'Tu audiencia entiende y valora lo que ofreces.' },
-    { title: 'Alianzas efectivas', description: 'Una historia clara atrae a quienes piensan como tú.' },
-  ],
-};
-
-const easeForYou = {
-  items: [
-    {
-      title: 'Creamos desde cero',
-      description: 'Solo necesitás contarnos para quién comunicás y qué querés transmitir. Nosotros nos encargamos del resto.',
-    },
-    {
-      title: 'Sin sobrecarga para tu equipo',
-      description: 'No hace falta que redactes, diseñes ni armes presentaciones. Hacemos que tu tiempo valga más.',
-    },
-    {
-      title: 'Iteramos con vos, no sobre vos',
-      description: 'Te compartimos avances y decisiones clave en el proceso, sin exigirte un seguimiento diario.',
-    },
-  ],
-  cta: {
-    label: 'Quiero trabajar así',
-    href: '#agenda',
-  },
-};
-
-const caseItems = [
-  {
-    videoSrc: '/videos/caso1.mp4',
-    poster: '/images/poster1.jpg',
-  },
-  {
-    videoSrc: '/videos/caso2.mp4',
-    poster: '/images/poster2.jpg',
-  },
-  {
-    videoSrc: '/videos/caso3.mp4',
-    poster: '/images/poster3.jpg',
-  },
-];
-
-const process = {
-  steps: [
-    {
-      number: '01',
-      title: 'Entendimiento',
-      description: 'Conocemos a tu marca, su historia, su tono, sus objetivos y el público al que quiere llegar.',
-    },
-    {
-      number: '02',
-      title: 'Narrativa',
-      description: 'Diseñamos el guión, visualizamos el enfoque y creamos el relato emocional que vas a contar.',
-    },
-    {
-      number: '03',
-      title: 'Producción',
-      description: 'Damos vida a tu historia con animación, música, edición y efectos para lograr impacto visual y emocional.',
-    },
-  ],
-};
-
-const manifesto = {
-  questions: [
-    '¿Por qué las empresas siguen comunicando con tanto ruido visual?',
-    '¿Por qué todo parece tan genérico y repetido?',
-    '¿Por qué la comunicación corporativa sigue siendo aburrida?',
-  ],
-  resultMap: {
-    title: 'Queremos cambiar eso.',
-    subtitle: 'Y lo hacemos con historias que emocionan, conmueven y conectan.',
-  },
-  bullets: [
-    'Creamos desde lo emocional, no desde lo funcional.',
-    'Narramos con propósito y estética.',
-    'Damos voz a marcas que necesitan algo más que un contenido: necesitan identidad.',
-  ],
-};
-
-const leadQuiz = {
-  questions: [
-    '¿Querés emocionar o informar?',
-    '¿Querés atraer o convencer?',
-    '¿Tu marca ya tiene una voz clara?',
-    '¿Tu contenido genera orgullo cuando lo compartís?',
-  ],
-  resultMap: {
-    title: 'Tu historia puede ser tu mayor activo.',
-    subtitle: 'Convirtamos juntos tu comunicación en algo poderoso.',
-  },
-};
+import { useEffect } from 'react'
+import { trackEvent } from '@/lib/analytics'
+import { Hero } from '@/components/home/Hero'
+import { Benefits } from '@/components/home/Benefits'
+import { EaseForYou } from '@/components/home/EaseForYou'
+import { Cases } from '@/components/home/Cases'
+import { Process } from '@/components/home/Process'
+import { EcosystemTeaser } from '@/components/home/EcosystemTeaser'
+import { Manifesto } from '@/components/home/Manifesto'
+import { CTASection } from '@/components/home/CTASection'
+import { LeadQuiz } from '@/components/home/LeadQuiz'
+import { MicroTestimonialVideo } from '@/components/home/MicroTestimonialVideo'
 
 export default function HomePage() {
   useEffect(() => {
-    trackEvent('home_page_view');
-  }, []);
+    trackEvent('view_home')
+  }, [])
+
+  const hero = {
+    headline: 'Historias que transforman cómo se comunica tu empresa.',
+    subheadline: 'Cinematografía, criterio y tecnología para contar lo que tu marca realmente es.',
+    videoSrc: '/videos/reel-ofc.mp4',
+    posterSrc: '/images/reel-ofc-poster.jpg',
+    primaryCta: { label: 'Explora nuestra forma de contar historias', href: '#casos' },
+    secondaryCta: { label: 'Agenda una sesión de diagnóstico (20’)', href: '#agenda' },
+    microcopy: 'Comunidad creativa, no agencia. IA como herramienta, no como eslogan.'
+  }
+
+  const benefits = {
+    emotional: [
+      'Tu audiencia te reconoce y te recuerda.',
+      'Tu equipo se alinea.',
+      'Tu marca se vuelve narrativa, no solo visual.'
+    ],
+    strategic: [
+      'Menos contenido irrelevante, más impacto real.',
+      'Aprovechas presupuestos existentes.',
+      'Mides, aprendes, mejoras.'
+    ]
+  }
+
+  const easeForYou = {
+    items: [
+      { title: 'Diagnóstico narrativo express (20’)' },
+      { title: 'Diseño macro→micro con duración definida upfront' },
+      { title: 'Producción con IA y coherencia visual garantizada' },
+      { title: 'Activación & Análisis 360' },
+      { title: 'Acompañamiento continuo' },
+    ],
+    cta: { label: 'Quiero verlo aplicado a mi caso', href: '#agenda' }
+  }
+
+  const cases = {
+    items: [
+      {
+        slug: 'cultura-compartida',
+        title: 'De cultura desalineada a una voz compartida',
+        problem: 'La empresa quería alinear a su equipo bajo un mismo propósito emocional.',
+        decision: 'Diseñamos una historia cinematográfica breve que condensó su ADN en 60 segundos.',
+        impact: {
+          emotional: ['Mayor sentido de pertenencia', 'Lenguaje común en la comunicación interna'],
+          strategic: ['+35% en retención del vídeo', 'Material reutilizable en onboarding']
+        },
+        videoUrl: 'https://vimeo.com/xxxx',
+        stack: ['Storycrafter – A Cinematic Mind', 'IA para coherencia visual', 'Activación 360'],
+        nextPhase: 'Serie documental corta para profundizar en cada valor.'
+      }
+    ]
+  }
+
+  const process = {
+    steps: [
+      { id: 1, title: 'Te escuchamos 20’ y te damos claridad.', description: 'Definimos tu objetivo emocional/estratégico.', keystone: 'Objetivo claro' },
+      { id: 2, title: 'Diseñamos tu historia con la duración justa para cuidar tu ROI.', description: 'Guion aprobado + lógica visual.', keystone: 'Guion + lógica visual' },
+      { id: 3, title: 'Producimos con IA, asegurando coherencia visual desde el inicio.', description: 'Storyboard + reel preliminar.', keystone: 'Storyboard + reel' },
+      { id: 4, title: 'Activamos, medimos y volvemos con decisiones claras.', description: 'Informe audiovisual + recomendaciones.', keystone: 'Informe + decisiones' },
+    ]
+  }
+
+  const chips = [
+    { name: 'Cinematográfica', href: '/formatos#cinematografica' },
+    { name: 'Documental', href: '/formatos#documental' },
+    { name: 'Animada', href: '/formatos#animada' },
+    { name: 'Marketing de Producto', href: '/formatos#marketing' },
+    { name: 'Trailer', href: '/formatos#trailer' },
+  ]
+
+  const manifesto = {
+    bullets: [
+      'No informamos, movemos.',
+      'Cada historia es única.',
+      'IA como herramienta, no como narrativa.',
+      'Visualidad coherente desde el inicio.',
+      'Criterio sobre patrones.',
+      'Total apertura comunicativa.',
+      'No empujamos. Invitamos.'
+    ]
+  }
+
+  const quiz = {
+    questions: [
+      '¿Cuál es tu prioridad principal (alineación interna, awareness, performance, etc.)?',
+      '¿Presupuesto aproximado?',
+      '¿Plazo deseado?',
+      '¿Dónde vive tu audiencia?',
+    ],
+    resultMap: {
+      title: 'Recomendación preliminar',
+      subtitle: 'Con esas respuestas, creemos que…'
+    }
+  }
 
   return (
     <>
@@ -144,11 +125,15 @@ export default function HomePage() {
       </section>
 
       <section id="casos" className="py-24">
-        <Cases items={caseItems} />
+        <Cases {...cases} />
       </section>
 
       <section id="proceso" className="py-24 bg-zinc-900/30">
         <Process {...process} />
+      </section>
+
+      <section id="ecosistema" className="py-24">
+        <EcosystemTeaser chips={chips} copy="No producimos formatos enlatados: elegimos la forma que tu reto necesita. Conócelo en detalle →" />
       </section>
 
       <section id="manifiesto" className="py-24 bg-zinc-900/30">
@@ -164,8 +149,17 @@ export default function HomePage() {
       </section>
 
       <section id="quiz" className="py-24 bg-zinc-900/30">
-        <LeadQuiz {...leadQuiz} />
+        <LeadQuiz {...quiz} />
+      </section>
+
+      <section id="microtesti" className="py-24">
+        <MicroTestimonialVideo
+          author="Nombre Apellido"
+          role="Cargo, Empresa"
+          videoUrl="https://vimeo.com/xxxx"
+          quote="Trabajar con OFC nos dio claridad narrativa y foco."
+        />
       </section>
     </>
-  );
+  )
 }
