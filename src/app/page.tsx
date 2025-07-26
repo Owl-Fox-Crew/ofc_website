@@ -13,17 +13,19 @@ import { LeadQuiz } from '@/components/home/LeadQuiz';
 import { VideoReel } from '@/components/common/VideoReel';
 
 const hero = {
-  tagline: 'Revolucionamos el storytelling corporativo',
-  title: 'Creamos historias con calidad cinematográfica, capaces de transformar tu comunicación.',
-  subtitle: 'Damos voz a tu marca para que conectes con tu audiencia desde lo visual, lo emocional y lo auténtico.',
-  ctaPrimary: {
+  headline: 'Creamos historias con calidad cinematográfica',
+  subheadline: 'Revolucionamos el storytelling corporativo',
+  videoSrc: '/videos/hero-video.mp4',
+  posterSrc: '/images/hero-poster.jpg',
+  primaryCta: {
     label: 'Agenda tu diagnóstico narrativo gratuito (20’)',
     href: '#agenda',
   },
-  ctaSecondary: {
+  secondaryCta: {
     label: 'Hazme 4 preguntas y propón un camino',
     href: '#quiz',
   },
+  microcopy: 'Damos voz a tu marca para que conectes con tu audiencia desde lo visual, lo emocional y lo auténtico.',
 };
 
 const benefits = {
