@@ -10,7 +10,6 @@ import { Process } from '@/components/home/Process';
 import { Manifesto } from '@/components/home/Manifesto';
 import { CTASection } from '@/components/home/CTASection';
 import { LeadQuiz } from '@/components/home/LeadQuiz';
-import { VideoReel } from '@/components/common/VideoReel';
 
 const hero = {
   headline: 'Creamos historias con calidad cinematográfica',
@@ -30,32 +29,14 @@ const hero = {
 
 const benefits = {
   emotional: [
-    {
-      title: "Mayor recordación",
-      description: "Tu marca deja huella emocional en quien la ve.",
-    },
-    {
-      title: "Conexión profunda",
-      description: "Generas vínculos humanos, no solo visuales.",
-    },
-    {
-      title: "Identificación auténtica",
-      description: "Tu historia refleja tu esencia con honestidad.",
-    },
+    { title: 'Mayor recordación', description: 'Tu marca deja huella emocional en quien la ve.' },
+    { title: 'Conexión profunda', description: 'Generas vínculos humanos, no solo visuales.' },
+    { title: 'Identificación auténtica', description: 'Tu historia refleja tu esencia con honestidad.' },
   ],
   strategic: [
-    {
-      title: "Más visibilidad",
-      description: "El contenido emocional tiene mayor alcance.",
-    },
-    {
-      title: "Mejor conversión",
-      description: "Tu audiencia entiende y valora lo que ofreces.",
-    },
-    {
-      title: "Alianzas efectivas",
-      description: "Una historia clara atrae a quienes piensan como tú.",
-    },
+    { title: 'Más visibilidad', description: 'El contenido emocional tiene mayor alcance.' },
+    { title: 'Mejor conversión', description: 'Tu audiencia entiende y valora lo que ofreces.' },
+    { title: 'Alianzas efectivas', description: 'Una historia clara atrae a quienes piensan como tú.' },
   ],
 };
 
@@ -74,6 +55,10 @@ const easeForYou = {
       description: 'Te compartimos avances y decisiones clave en el proceso, sin exigirte un seguimiento diario.',
     },
   ],
+  cta: {
+    label: 'Quiero trabajar así',
+    href: '#agenda',
+  },
 };
 
 const cases = [
