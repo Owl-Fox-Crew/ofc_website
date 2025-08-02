@@ -19,7 +19,9 @@ export default function Home() {
         emotional={["Emotional insight 1", "Emotional insight 2"]}
         strategic={["Strategic value 1", "Strategic value 2"]}
       />
-      <EaseForYou />
+      <EaseForYou
+        items={["Ease 1", "Ease 2", "Ease 3"]}
+      />
       <Cases />
     </>
   );
