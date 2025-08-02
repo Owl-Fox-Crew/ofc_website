@@ -19,3 +19,6 @@ yarn-error.log*
 
 # Archivos temporales
 *.log
+
+# ⛔ Evitar versionar sitemap generado automáticamente
+public/sitemap.xml
