@@ -1,81 +1,71 @@
-'use client'
+import React, { useState } from "react";
+import Link from "next/link";
+import { Volume2, VolumeX } from "lucide-react";
+import { useTranslations } from "next-intl";
 
-import { motion } from 'framer-motion'
-import { VideoReel } from '@/components/common/VideoReel'
-import { trackEvent } from '@/lib/analytics'
+const Hero: React.FC = () => {
+  const [muted, setMuted] = useState<boolean>(true);
+  const t = useTranslations("Hero");
 
-export interface CTA {
-  label: string
-  href: string
-}
-
-export interface HeroProps {
-  headline: string
-  subheadline?: string
-  videoSrc: string
-  posterSrc: string
-  primaryCta?: CTA
-  secondaryCta?: CTA
-  microcopy?: string
-}
-
-export function Hero({
-  headline,
-  subheadline,
-  videoSrc,
-  posterSrc,
-  primaryCta,
-  secondaryCta,
-  microcopy
-}: HeroProps) {
   return (
-    <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
-      <VideoReel src={videoSrc} poster={posterSrc} />
-      <div className="absolute inset-0 bg-black/40" />
+    <section className="relative w-full h-screen overflow-hidden bg-black text-white">
+      {/* Video hero */}
+      <video
+        src="/video-final-temporal-del-hero.mp4"
+        autoPlay
+        loop
+        muted={muted}
+        playsInline
+        preload="auto"
+        poster="/fallback-thumbnail.jpg"
+        title="Owl Fox Crew – Cinematic Hero Reel"
+        className="absolute inset-0 object-cover w-full h-full z-0"
+      />
 
-      <div className="relative z-10 max-w-5xl text-center px-6">
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
-          className="text-4xl md:text-6xl font-semibold leading-tight"
-        >
-          {headline}
-        </motion.h1>
-        {subheadline && (
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.75, delay: 0.1, ease: 'easeOut' }}
-            className="mt-6 text-lg md:text-xl opacity-90"
-          >
-            {subheadline}
-          </motion.p>
-        )}
-        {microcopy && (
-          <p className="mt-4 text-sm uppercase tracking-wide opacity-70">{microcopy}</p>
-        )}
+      {/* Overlay oscuro */}
+      <div className="absolute inset-0 bg-black/50 z-10" />
 
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
-          {primaryCta && (
-            <a
-              href={primaryCta.href}
-              onClick={() => trackEvent('cta_click_primary', { location: 'hero' })}
-              className="rounded-2xl px-6 py-3 text-lg transition duration-200 bg-white text-black hover:bg-transparent hover:text-white border border-transparent hover:border-white"
+      {/* Contenido principal */}
+      <div className="relative z-20 flex flex-col items-center justify-center text-center h-full px-6 max-w-4xl mx-auto">
+        <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
+          {t("title")}
+        </h1>
+        <p className="text-white text-lg md:text-xl mb-1">
+          {t("subtitle")}
+        </p>
+        <p className="text-white text-lg md:text-xl mb-8">
+          {t("tagline")}
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Link href="/services" passHref>
+            <button
+              className="bg-white text-black font-medium py-2 px-6 rounded-2xl text-lg transition-opacity duration-300 hover:bg-neutral-200"
+              aria-label={t("cta1")}
             >
-              {primaryCta.label}
-            </a>
-          )}
-          {secondaryCta && (
-            <a
-              href={secondaryCta.href}
-              onClick={() => trackEvent('cta_click_secondary', { location: 'hero' })}
-              className="rounded-2xl px-6 py-3 text-lg transition duration-200 border border-white text-white hover:bg-white hover:text-black"
+              {t("cta1")}
+            </button>
+          </Link>
+          <Link href="/free-talk" passHref>
+            <button
+              className="border border-white text-white font-medium py-2 px-6 rounded-2xl text-lg transition-opacity duration-300 hover:bg-white hover:text-black"
+              aria-label={t("cta2")}
             >
-              {secondaryCta.label}
-            </a>) }
+              {t("cta2")}
+            </button>
+          </Link>
         </div>
       </div>
+
+      {/* Botón de audio */}
+      <button
+        onClick={() => setMuted(!muted)}
+        className="absolute bottom-6 right-6 z-30 bg-white/20 rounded-full p-2 hover:bg-white/30 text-white"
+        aria-label={muted ? t("enableAudio") : t("muteAudio")}
+      >
+        {muted ? <VolumeX size={20} /> : <Volume2 size={20} />}
+      </button>
     </section>
-  )
-}
+  );
+};
+
+export default Hero;
