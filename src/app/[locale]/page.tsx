@@ -1,12 +1,21 @@
-import Hero from '../../components/home/Hero';
-import { getTranslations } from 'next-intl/server';
+import Hero from '@/components/home/Hero';
+import { useEffect } from 'react';
+import { trackEvent } from '@/lib/analytics';
+import { Benefits } from '@/components/home/Benefits';
+import { EaseForYou } from '@/components/home/EaseForYou';
+import { Cases } from '@/components/home/Cases';
 
-export default async function Home() {
-  const t = await getTranslations('Hero');
+export default function Page() {
+  useEffect(() => {
+    trackEvent('PageView_Home');
+  }, []);
 
   return (
-    <main>
+    <>
       <Hero />
-    </main>
+      <Benefits />
+      <EaseForYou />
+      <Cases />
+    </>
   );
 }
