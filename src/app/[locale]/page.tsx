@@ -15,7 +15,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Benefits emotional="Emotional content goes here" strategic="Strategic content goes here" />
+      <Benefits
+        emotional={["Emotional insight 1", "Emotional insight 2"]}
+        strategic={["Strategic value 1", "Strategic value 2"]}
+      />
       <EaseForYou />
       <Cases />
     </>
