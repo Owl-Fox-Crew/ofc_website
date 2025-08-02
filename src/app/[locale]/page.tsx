@@ -1,22 +1,12 @@
-import { ReactNode } from 'react';
-import { NextIntlClientProvider, useMessages } from 'next-intl';
+import Hero from '@/app/components/home/Hero';
+import { getTranslations } from 'next-intl/server';
 
-export default function LocaleLayout({
-  children,
-  params: { locale }
-}: {
-  children: ReactNode;
-  params: { locale: string };
-}) {
-  const messages = useMessages();
+export default async function Home() {
+  const t = await getTranslations('Hero');
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <main>
+      <Hero />
+    </main>
   );
 }
