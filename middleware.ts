@@ -1,5 +1,12 @@
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
+import createMiddleware from 'next-intl/middleware';
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
+export default createMiddleware({
+  locales: ['en', 'es'],
+  defaultLocale: 'en'
+});
+
+export const config = {
+  matcher: [
+    '/((?!_next|favicon.ico|images|video|api|studio).*)'
+  ]
+};
