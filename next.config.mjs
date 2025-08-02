@@ -1,9 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 
-/**
- * Copia el archivo de robots correcto al inicio del build
- */
 const env = process.env.NODE_ENV
 const robotsSrc =
   env === 'production'
@@ -22,9 +19,6 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['cdn.sanity.io'],
-  },
-  experimental: {
-    serverActions: true,
   },
   i18n: {
     locales: ['en', 'es'],
