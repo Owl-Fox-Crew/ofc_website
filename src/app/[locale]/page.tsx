@@ -20,7 +20,11 @@ export default function Home() {
         strategic={["Strategic value 1", "Strategic value 2"]}
       />
       <EaseForYou
-        items={["Ease 1", "Ease 2", "Ease 3"]}
+        items={[
+          { title: "Ease point 1", description: "Description 1" },
+          { title: "Ease point 2", description: "Description 2" },
+          { title: "Ease point 3", description: "Description 3" }
+        ]}
       />
       <Cases />
     </>
