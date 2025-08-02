@@ -28,9 +28,27 @@ export default function Home() {
       />
       <Cases
         items={[
-          { title: "Case 1", slug: "case-1" },
-          { title: "Case 2", slug: "case-2" },
-          { title: "Case 3", slug: "case-3" }
+          {
+            title: "Case 1",
+            slug: "case-1",
+            problem: "Problem description for case 1",
+            decision: "Decision made in case 1",
+            videoUrl: "https://www.youtube.com/embed/sample1"
+          },
+          {
+            title: "Case 2",
+            slug: "case-2",
+            problem: "Problem description for case 2",
+            decision: "Decision made in case 2",
+            videoUrl: "https://www.youtube.com/embed/sample2"
+          },
+          {
+            title: "Case 3",
+            slug: "case-3",
+            problem: "Problem description for case 3",
+            decision: "Decision made in case 3",
+            videoUrl: "https://www.youtube.com/embed/sample3"
+          }
         ]}
       />
     </>
