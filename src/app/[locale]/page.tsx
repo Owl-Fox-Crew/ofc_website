@@ -28,9 +28,9 @@ export default function Home() {
       />
       <Cases
         items={[
-          { title: "Case 1", description: "Case description 1", image: "/images/case1.jpg" },
-          { title: "Case 2", description: "Case description 2", image: "/images/case2.jpg" },
-          { title: "Case 3", description: "Case description 3", image: "/images/case3.jpg" }
+          { title: "Case 1", image: "/images/case1.jpg" },
+          { title: "Case 2", image: "/images/case2.jpg" },
+          { title: "Case 3", image: "/images/case3.jpg" }
         ]}
       />
     </>
