@@ -26,6 +26,10 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  i18n: {
+    locales: ['en', 'es'],
+    defaultLocale: 'en',
+  }
 }
 
 export default nextConfig
