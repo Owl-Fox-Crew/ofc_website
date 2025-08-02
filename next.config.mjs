@@ -1,4 +1,3 @@
-import { withContentlayer } from 'next-contentlayer'
 import fs from 'fs'
 import path from 'path'
 
@@ -29,4 +28,4 @@ const nextConfig = {
   },
 }
 
-export default withContentlayer(nextConfig)
+export default nextConfig
