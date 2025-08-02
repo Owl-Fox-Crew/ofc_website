@@ -1,4 +1,4 @@
-import Hero from '@/app/components/home/Hero';
+import Hero from '../../components/home/Hero';
 import { getTranslations } from 'next-intl/server';
 
 export default async function Home() {
