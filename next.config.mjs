@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import createIntlPlugin from 'next-intl/plugin'
 
 const env = process.env.NODE_ENV
 const robotsSrc =
@@ -15,6 +16,9 @@ try {
   console.warn('⚠️ No se pudo copiar robots.txt:', err.message)
 }
 
+// 👇 Importante: le decimos a Next que use los mensajes desde /src/messages
+const withNextIntl = createIntlPlugin('./src/messages')
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -26,4 +30,5 @@ const nextConfig = {
   }
 }
 
-export default nextConfig
+// 👇 Exportamos el plugin aplicado
+export default withNextIntl(nextConfig)
