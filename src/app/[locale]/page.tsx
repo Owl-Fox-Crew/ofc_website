@@ -10,7 +10,7 @@ import { EaseForYou } from '@/components/home/EaseForYou';
 import { Cases } from '@/components/home/Cases';
 
 export default function Home() {
-  const t = useTranslations(); // Se eliminó el scope 'Hero'
+  const t = useTranslations('Hero'); // Agregado el scope 'Hero'
 
   useEffect(() => {
     trackEvent('PageView_Home');
