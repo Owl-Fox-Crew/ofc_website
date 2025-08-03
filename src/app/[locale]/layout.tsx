@@ -1,14 +1,15 @@
 import { ReactNode } from 'react';
-import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params: { locale }
 }: {
   children: ReactNode;
   params: { locale: string };
 }) {
-  const messages = useMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale}>
