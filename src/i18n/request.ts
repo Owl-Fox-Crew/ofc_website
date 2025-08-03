@@ -1,14 +1,10 @@
 import { getRequestConfig } from 'next-intl/server';
 
-export default getRequestConfig(async ({ locale }) => {
-  const fallbackLocale = 'en';
-  const safeLocale = locale ?? fallbackLocale;
-
-  const messagesFile = await import(`../messages/${safeLocale}/Hero.json`);
-  const messages = messagesFile.default;
+export default getRequestConfig(({ locale }) => {
+  const safeLocale = locale ?? 'en';
 
   return {
     locale: safeLocale,
-    messages
+    messages: () => import(`../messages/${safeLocale}/Hero.json`).then(mod => mod.default)
   };
 });
