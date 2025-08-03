@@ -1,5 +1,8 @@
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
+// src/i18n/request.ts
+import { getRequestConfig } from 'next-intl/server';
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
+export default getRequestConfig(({ locale }) => ({
+  locale,
+  messages: (async () =>
+    (await import(`../messages/${locale}/Hero.json`)).default)(),
+}));
