@@ -1,7 +1,6 @@
-'use client';
+"use client";
 
 import React, { useState } from 'react';
-import { Volume2, VolumeX } from 'lucide-react';
 
 type HeroProps = {
   title1: string;
@@ -31,7 +30,7 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black text-white">
       <video
-        src="/video-final-temporal-del-hero.mp4"
+        src="/TestVideo-Web.mp4"
         autoPlay
         loop
         muted={muted}
@@ -44,15 +43,15 @@ const Hero: React.FC<HeroProps> = ({
 
       <div className="absolute inset-0 bg-black/50 z-10" />
 
-      <div className="relative z-20 flex flex-col items-center justify-center text-center h-full px-6 max-w-6xl mx-auto">
+      <div className="relative z-20 flex flex-col items-center justify-center text-center h-full px-6 max-w-5xl mx-auto">
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-2 animate-fade-in">
           {title1}
         </h1>
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
           {title2}
         </h1>
-        <p className="text-white text-lg md:text-xl">{subtitle1}</p>
-        <p className="text-white text-lg md:text-xl mb-4">{subtitle2}</p>
+        <p className="text-white text-lg md:text-xl text-balance text-pretty">{subtitle1}</p>
+        <p className="text-white text-lg md:text-xl mb-4 text-balance text-pretty">{subtitle2}</p>
         <p className="text-[#ff7503] text-lg md:text-xl font-semibold mb-8">
           {tagline}
         </p>
@@ -68,10 +67,14 @@ const Hero: React.FC<HeroProps> = ({
 
       <button
         onClick={() => setMuted(!muted)}
-        className="absolute bottom-6 right-6 z-30 bg-white/20 rounded-full p-2 hover:bg-white/30 text-white"
+        className="absolute bottom-6 right-6 z-30 bg-white/20 rounded-full p-2 hover:bg-white/30"
         aria-label={muted ? enableAudio : muteAudio}
       >
-        {muted ? <VolumeX /> : <Volume2 />}
+        <img
+          src={muted ? '/mute.png' : '/volume-up.png'}
+          alt={muted ? muteAudio : enableAudio}
+          className="w-6 h-6"
+        />
       </button>
     </section>
   );
