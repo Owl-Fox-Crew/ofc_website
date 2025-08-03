@@ -1,9 +1,12 @@
 import { getRequestConfig } from 'next-intl/server';
 
 export default getRequestConfig(async ({ locale }) => {
-  const messages = await import(`../messages/${locale}/Hero.json`);
+  const fallbackLocale = 'en';
+  const safeLocale = locale ?? fallbackLocale;
+
+  const messages = await import(`../messages/${safeLocale}/Hero.json`);
   return {
-    locale,
+    locale: safeLocale,
     messages: messages.default.Hero
   };
 });
