@@ -1,8 +1,7 @@
-// src/i18n/request.ts
 import { getRequestConfig } from 'next-intl/server';
 
 export default getRequestConfig(({ locale }) => ({
-  locale,
+  locale: locale ?? 'en',
   messages: (async () =>
-    (await import(`../messages/${locale}/Hero.json`)).default)(),
+    (await import(`../messages/${locale ?? 'en'}/Hero.json`)).default)(),
 }));
