@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import createIntlPlugin from 'next-intl/plugin';
-import intlConfig from './next-intl.config.ts';
+import intlConfig from './next-intl.config.js';
 
 const withNextIntl = createIntlPlugin('./src/messages', {
   nextIntl: intlConfig
