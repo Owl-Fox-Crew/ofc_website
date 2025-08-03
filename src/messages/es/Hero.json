@@ -1,11 +1,10 @@
 {
-  "Hero": {
-    "title": "Historias que transforman cómo se comunica el mundo",
-    "subtitle": "Cinematografía, criterio y tecnología para marcas valientes.",
-    "tagline": "Comunidad creativa, no agencia. IA como herramienta.",
-    "cta1": "Explora nuestra forma de contar historias",
-    "cta2": "Permite comunicar diferente — Hablemos",
-    "muteAudio": "Silenciar audio",
-    "enableAudio": "Activar audio"
-  }
+  "title": "Historias que transforman cómo se comunica el mundo",
+  "subtitle": "Cinematografía, criterio y tecnología para marcas valientes.",
+  "tagline": "Comunidad creativa, no agencia. IA como herramienta.",
+  "cta1": "Explora nuestra forma de contar historias",
+  "cta2": "Permite comunicar diferente — Hablemos",
+  "muteAudio": "Silenciar audio",
+  "enableAudio": "Activar audio"
 }
+
