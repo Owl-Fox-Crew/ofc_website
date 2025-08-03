@@ -4,9 +4,11 @@ export default getRequestConfig(async ({ locale }) => {
   const fallbackLocale = 'en';
   const safeLocale = locale ?? fallbackLocale;
 
-  const messages = await import(`../messages/${safeLocale}/Hero.json`);
+  const messagesFile = await import(`../messages/${safeLocale}/Hero.json`);
+  const messages = messagesFile.default;
+
   return {
     locale: safeLocale,
-    messages: messages.default.Hero
+    messages
   };
 });
