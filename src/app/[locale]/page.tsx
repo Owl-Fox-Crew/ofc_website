@@ -10,7 +10,7 @@ import { EaseForYou } from '@/components/home/EaseForYou';
 import { Cases } from '@/components/home/Cases';
 
 export default function Home() {
-  const t = useTranslations('Hero'); // Agregado el scope 'Hero'
+  const t = useTranslations('Hero');
 
   useEffect(() => {
     trackEvent('PageView_Home');
@@ -19,8 +19,10 @@ export default function Home() {
   return (
     <>
       <Hero
-        title={t('title')}
-        subtitle={t('subtitle')}
+        title1={t('title1')}
+        title2={t('title2')}
+        subtitle1={t('subtitle1')}
+        subtitle2={t('subtitle2')}
         tagline={t('tagline')}
         cta1={t('cta1')}
         cta2={t('cta2')}
