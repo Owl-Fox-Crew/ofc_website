@@ -1,22 +1,24 @@
-import fs from 'fs'
-import path from 'path'
-import createIntlPlugin from 'next-intl/plugin'
+import fs from 'fs';
+import path from 'path';
+import createIntlPlugin from 'next-intl/plugin';
+import intlConfig from './next-intl.config.ts';
 
-// 📁 Ruta al folder donde están los Hero.json
-const withNextIntl = createIntlPlugin('./src/messages')
+const withNextIntl = createIntlPlugin('./src/messages', {
+  nextIntl: intlConfig
+});
 
-const env = process.env.NODE_ENV
+const env = process.env.NODE_ENV;
 const robotsSrc =
   env === 'production'
     ? 'public/robots.production.txt'
-    : 'public/robots.staging.txt'
-const robotsDest = 'public/robots.txt'
+    : 'public/robots.staging.txt';
+const robotsDest = 'public/robots.txt';
 
 try {
-  fs.copyFileSync(path.resolve(robotsSrc), path.resolve(robotsDest))
-  console.log(`✅ Robots.txt configurado para entorno: ${env}`)
+  fs.copyFileSync(path.resolve(robotsSrc), path.resolve(robotsDest));
+  console.log(`✅ Robots.txt configurado para entorno: ${env}`);
 } catch (err) {
-  console.warn('⚠️ No se pudo copiar robots.txt:', err.message)
+  console.warn('⚠️ No se pudo copiar robots.txt:', err.message);
 }
 
 const nextConfig = {
@@ -24,6 +26,6 @@ const nextConfig = {
   images: {
     domains: ['cdn.sanity.io']
   }
-}
+};
 
-export default withNextIntl(nextConfig)
+export default withNextIntl(nextConfig);
