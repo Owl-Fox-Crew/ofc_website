@@ -44,7 +44,7 @@ const Hero: React.FC<HeroProps> = ({
 
       <div className="absolute inset-0 bg-black/50 z-10" />
 
-      <div className="relative z-20 flex flex-col items-center justify-center text-center h-full px-6 max-w-4xl mx-auto">
+      <div className="relative z-20 flex flex-col items-center justify-center text-center h-full px-6 max-w-6xl mx-auto">
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-2 animate-fade-in">
           {title1}
         </h1>
