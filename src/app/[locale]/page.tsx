@@ -1,20 +1,32 @@
 "use client";
 
-import Hero from '@/components/home/Hero';
 import { useEffect } from 'react';
+import { useTranslations } from 'next-intl';
+
 import { trackEvent } from '@/lib/analytics';
+import Hero from '@/components/home/Hero';
 import { Benefits } from '@/components/home/Benefits';
 import { EaseForYou } from '@/components/home/EaseForYou';
 import { Cases } from '@/components/home/Cases';
 
 export default function Home() {
+  const t = useTranslations(); // Se eliminó el scope 'Hero'
+
   useEffect(() => {
     trackEvent('PageView_Home');
   }, []);
 
   return (
     <>
-      <Hero />
+      <Hero
+        title={t('title')}
+        subtitle={t('subtitle')}
+        tagline={t('tagline')}
+        cta1={t('cta1')}
+        cta2={t('cta2')}
+        muteAudio={t('muteAudio')}
+        enableAudio={t('enableAudio')}
+      />
       <Benefits
         emotional={["Emotional insight 1", "Emotional insight 2"]}
         strategic={["Strategic value 1", "Strategic value 2"]}
