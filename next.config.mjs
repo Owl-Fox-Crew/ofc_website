@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import createIntlPlugin from 'next-intl/plugin'
 
-// ⚠️ Removemos i18n porque App Router ya gestiona eso automáticamente
+// 📁 Ruta al folder donde están los Hero.json
 const withNextIntl = createIntlPlugin('./src/messages')
 
 const env = process.env.NODE_ENV
