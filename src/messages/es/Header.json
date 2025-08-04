@@ -1,22 +1,18 @@
 {
-  "stories": "Historias",
-  "services": {
-    "label": "Servicios",
-    "cinematic": "Formato Cinematográfico",
-    "trailer": "Formato Trailer",
-    "marketing": "Formato Marketing",
-    "documentary": "Formato Documental",
-    "animated": "Formato Animado",
-    "single": "Acompañamiento Único",
-    "full": "Acompañamiento 360º"
-  },
-  "crew": "Crew",
-  "pricing": "Precios",
-  "resources": {
-    "label": "Recursos",
-    "blog": "Blog",
-    "downloads": "Descargables",
-    "podcast": "Podcast"
-  },
-  "freeTalk": "Charla Libre"
+  "header.stories": "Historias",
+  "header.services.label": "Servicios",
+  "header.services.cinematic": "Formato Cinematográfico",
+  "header.services.trailer": "Formato Trailer",
+  "header.services.marketing": "Formato Marketing",
+  "header.services.documentary": "Formato Documental",
+  "header.services.animated": "Formato Animado",
+  "header.services.single": "Acompañamiento Único",
+  "header.services.full": "Acompañamiento 360º",
+  "header.crew": "Crew",
+  "header.pricing": "Precios",
+  "header.resources.label": "Recursos",
+  "header.resources.blog": "Blog",
+  "header.resources.downloads": "Descargables",
+  "header.resources.podcast": "Podcast",
+  "header.freeTalk": "Sesión Gratuita"
 }
