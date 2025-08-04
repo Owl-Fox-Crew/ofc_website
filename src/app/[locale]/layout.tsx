@@ -2,7 +2,7 @@
 import { ReactNode } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import Header from '@/components/common/Header';
+import ClientHeader from '@/components/common/ClientHeader'; // Usamos el wrapper cliente
 
 export function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];
@@ -21,7 +21,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
+          <ClientHeader />
           {children}
         </NextIntlClientProvider>
       </body>
