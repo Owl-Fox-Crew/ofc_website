@@ -1,14 +1,14 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { ChevronDown } from 'lucide-react';
 
 const Header = () => {
   const pathname = usePathname();
-  const t = useTranslations('Header'); // Usamos el namespace correspondiente
+  const t = useTranslations('Header'); // Namespace correcto
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
