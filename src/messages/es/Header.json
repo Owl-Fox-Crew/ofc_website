@@ -1,0 +1,22 @@
+{
+  "stories": "Historias",
+  "services": {
+    "label": "Servicios",
+    "cinematic": "Formato Cinematográfico",
+    "trailer": "Formato Trailer",
+    "marketing": "Formato Marketing",
+    "documentary": "Formato Documental",
+    "animated": "Formato Animado",
+    "single": "Acompañamiento Único",
+    "full": "Acompañamiento 360º"
+  },
+  "crew": "Crew",
+  "pricing": "Precios",
+  "resources": {
+    "label": "Recursos",
+    "blog": "Blog",
+    "downloads": "Descargables",
+    "podcast": "Podcast"
+  },
+  "freeTalk": "Charla Libre"
+}
