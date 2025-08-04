@@ -8,7 +8,7 @@ import { ChevronDown } from 'lucide-react';
 
 const Header = () => {
   const pathname = usePathname();
-  const t = useTranslations('Header'); // Namespace correcto
+  const t = useTranslations('header'); // ✅ namespace declarado correctamente
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
