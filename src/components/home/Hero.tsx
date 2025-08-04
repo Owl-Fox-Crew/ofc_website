@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 type HeroProps = {
   title1: string;
@@ -25,7 +25,14 @@ const Hero: React.FC<HeroProps> = ({
   muteAudio,
   enableAudio
 }) => {
-  const [muted, setMuted] = useState<boolean>(true);
+  const [muted, setMuted] = useState(true);
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  if (!hasMounted) return null;
 
   return (
     <section className="relative w-full h-screen overflow-hidden bg-black text-white">
