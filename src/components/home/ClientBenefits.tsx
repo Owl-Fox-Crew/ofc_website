@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 // Import dinámico correctamente ajustado para extraer solo el componente
 const Benefits = dynamic(() => import('./Benefits').then(mod => mod.Benefits), { ssr: false });
 
-export default function ClientBenefits(props: Parameters<typeof Benefits>[0]) {
+export default function ClientBenefits(props: any) {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
