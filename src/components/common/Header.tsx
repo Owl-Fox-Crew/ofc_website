@@ -8,7 +8,7 @@ import { ChevronDown } from 'lucide-react';
 
 const Header = () => {
   const pathname = usePathname();
-  const t = useTranslations();
+  const t = useTranslations('Header'); // Usamos el namespace correspondiente
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
@@ -23,29 +23,29 @@ const Header = () => {
   }, []);
 
   const nav = [
-    { label: t('header.stories'), href: '/stories' },
+    { label: t('stories'), href: '/stories' },
     {
-      label: t('header.services.label'),
+      label: t('services.label'),
       href: '/services',
       submenu: [
-        { label: t('header.services.cinematic'), href: '/services/cinematic' },
-        { label: t('header.services.trailer'), href: '/services/trailer' },
-        { label: t('header.services.marketing'), href: '/services/marketing' },
-        { label: t('header.services.documentary'), href: '/services/documentary' },
-        { label: t('header.services.animated'), href: '/services/animated' },
-        { label: t('header.services.single'), href: '/services/single' },
-        { label: t('header.services.full'), href: '/services/full' }
+        { label: t('services.cinematic'), href: '/services/cinematic' },
+        { label: t('services.trailer'), href: '/services/trailer' },
+        { label: t('services.marketing'), href: '/services/marketing' },
+        { label: t('services.documentary'), href: '/services/documentary' },
+        { label: t('services.animated'), href: '/services/animated' },
+        { label: t('services.single'), href: '/services/single' },
+        { label: t('services.full'), href: '/services/full' }
       ]
     },
-    { label: t('header.crew'), href: '/team' },
-    { label: t('header.pricing'), href: '/pricing' },
+    { label: t('crew'), href: '/team' },
+    { label: t('pricing'), href: '/pricing' },
     {
-      label: t('header.resources.label'),
+      label: t('resources.label'),
       href: '/resources',
       submenu: [
-        { label: t('header.resources.blog'), href: '/resources/blog' },
-        { label: t('header.resources.downloads'), href: '/resources/downloads' },
-        { label: t('header.resources.podcast'), href: '/resources/podcast' }
+        { label: t('resources.blog'), href: '/resources/blog' },
+        { label: t('resources.downloads'), href: '/resources/downloads' },
+        { label: t('resources.podcast'), href: '/resources/podcast' }
       ]
     }
   ];
@@ -70,7 +70,7 @@ const Header = () => {
                   {item.label} <ChevronDown size={14} />
                 </button>
                 {openDropdown === item.href && (
-                  <div className="absolute top-full left-0 mt-2 bg-black/90 shadow-lg rounded-xl overflow-hidden border border-zinc-700 min-w-[200px]">
+                  <div className="absolute top-full left-0 mt-2 bg-black/90 shadow-lg rounded-xl overflow-hidden border border-zinc-700 min-w-[200px] z-50">
                     {item.submenu.map((sub) => (
                       <Link
                         key={sub.href}
@@ -100,7 +100,7 @@ const Header = () => {
             href={`/${currentLocale}/free-talk`}
             className="rounded-2xl px-4 py-2 text-sm bg-white text-black hover:bg-transparent hover:text-white border border-transparent hover:border-white transition"
           >
-            {t('header.freeTalk')}
+            {t('freeTalk')}
           </Link>
           <Link
             href={switchLocaleHref}
