@@ -1,18 +1,22 @@
 {
   "stories": "Historias",
-  "services.label": "Servicios",
-  "services.cinematic": "Formato Cinematográfico",
-  "services.trailer": "Formato Trailer",
-  "services.marketing": "Formato Marketing",
-  "services.documentary": "Formato Documental",
-  "services.animated": "Formato Animado",
-  "services.single": "Acompañamiento Único",
-  "services.full": "Acompañamiento 360º",
+  "services": {
+    "label": "Servicios",
+    "cinematic": "Formato Cinematográfico",
+    "trailer": "Formato Trailer",
+    "marketing": "Formato Marketing",
+    "documentary": "Formato Documental",
+    "animated": "Formato Animado",
+    "single": "Acompañamiento Único",
+    "full": "Acompañamiento 360º"
+  },
   "crew": "Crew",
   "pricing": "Precios",
-  "resources.label": "Recursos",
-  "resources.blog": "Blog",
-  "resources.downloads": "Descargables",
-  "resources.podcast": "Podcast",
+  "resources": {
+    "label": "Recursos",
+    "blog": "Blog",
+    "downloads": "Descargables",
+    "podcast": "Podcast"
+  },
   "freeTalk": "Sesión Gratuita"
 }
