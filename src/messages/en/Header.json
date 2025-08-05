@@ -1,18 +1,22 @@
 {
   "stories": "Stories",
-  "services.label": "Services",
-  "services.cinematic": "Cinematic Format",
-  "services.trailer": "Trailer Format",
-  "services.marketing": "Marketing Format",
-  "services.documentary": "Documentary Format",
-  "services.animated": "Animated Format",
-  "services.single": "Single Release",
-  "services.full": "360º Narrative Support",
+  "services": {
+    "label": "Services",
+    "cinematic": "Cinematic Format",
+    "trailer": "Trailer Format",
+    "marketing": "Marketing Format",
+    "documentary": "Documentary Format",
+    "animated": "Animated Format",
+    "single": "Single Release",
+    "full": "360º Narrative Support"
+  },
   "crew": "Crew",
   "pricing": "Pricing",
-  "resources.label": "Resources",
-  "resources.blog": "Blog",
-  "resources.downloads": "Downloads",
-  "resources.podcast": "Podcast",
+  "resources": {
+    "label": "Resources",
+    "blog": "Blog",
+    "downloads": "Downloads",
+    "podcast": "Podcast"
+  },
   "freeTalk": "Free Session"
 }
