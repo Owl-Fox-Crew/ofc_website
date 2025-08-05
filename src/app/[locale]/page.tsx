@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useEffect } from 'react';
 import { useTranslations } from 'next-intl';
@@ -31,14 +31,8 @@ export default function Home() {
         enableAudio={t('enableAudio')}
       />
       <ClientBenefits
-        emotional={[
-          tB('emotional1'),
-          tB('emotional2')
-        ]}
-        strategic={[
-          tB('strategic1'),
-          tB('strategic2')
-        ]}
+        emotional={[tB('emotional')]}
+        strategic={[tB('strategic')]}
       />
       <ClientEaseForYou />
       <ClientCases />
