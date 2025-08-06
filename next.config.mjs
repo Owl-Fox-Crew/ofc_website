@@ -1,31 +1,26 @@
-import fs from 'fs'
-import path from 'path'
-import createIntlPlugin from 'next-intl/plugin'
+import fs from 'fs';
+import path from 'path';
 
-const withNextIntl = createIntlPlugin({
-  locales: ['en', 'es'],
-  defaultLocale: 'en'
-})
-
-const env = process.env.NODE_ENV
+const env = process.env.NODE_ENV;
 const robotsSrc =
   env === 'production'
     ? 'public/robots.production.txt'
-    : 'public/robots.staging.txt'
-const robotsDest = 'public/robots.txt'
+    : 'public/robots.staging.txt';
+const robotsDest = 'public/robots.txt';
 
 try {
-  fs.copyFileSync(path.resolve(robotsSrc), path.resolve(robotsDest))
-  console.log(`✅ Robots.txt configurado para entorno: ${env}`)
+  fs.copyFileSync(path.resolve(robotsSrc), path.resolve(robotsDest));
+  console.log(`✅ Robots.txt configurado para entorno: ${env}`);
 } catch (err) {
-  console.warn('⚠️ No se pudo copiar robots.txt:', err.message)
+  console.warn('⚠️ No se pudo copiar robots.txt:', err.message);
 }
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['cdn.sanity.io']
   }
-}
+};
 
-export default withNextIntl(nextConfig)
+export default nextConfig;
