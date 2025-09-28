@@ -2,10 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-html { scroll-behavior: smooth; }
+/* Importar Urbanist desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;700&display=swap');
 
-.fade-in { animation: fade-in 0.4s ease-in-out both; }
+html { 
+  scroll-behavior: smooth; 
+  font-family: 'Urbanist', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Animaciones */
+.fade-in { 
+  animation: fade-in 0.4s ease-in-out both; 
+}
+
 @keyframes fade-in {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: none; }
+  from { 
+    opacity: 0; 
+    transform: translateY(4px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: none; 
+  }
 }
