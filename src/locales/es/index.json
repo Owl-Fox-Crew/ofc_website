@@ -1,11 +1,917 @@
 {
-  "hero.title1": "Narrativas con alma",
-  "hero.title2": "Estrategias con impacto",
-  "hero.subtitle1": "Transformamos ideas en experiencias digitales memorables.",
-  "hero.subtitle2": "Sitios que conectan, posicionan y convierten.",
-  "hero.tagline": "Una web que respira, recuerda y resuena.",
-  "hero.cta1": "Explorar casos",
-  "hero.cta2": "Descubrir experiencia",
+  "header.stories": "Historias",
+  "header.services": "Servicios",
+  "header.services.cinematic": "Cortometraje",
+  "header.services.trailer": "Tráiler",
+  "header.services.marketing": "Marketing",
+  "header.services.documentary": "Documental",
+  "header.services.animated": "Animado",
+  "header.services.single": "Lanzamiento Único",
+  "header.services.experience": "Experiencia 360º",
+  "header.crew": "Equipo",
+  "header.pricing": "Precios",
+  "header.resources": "Recursos",
+  "header.resources.blog": "Blog",
+  "header.resources.downloadable": "Descargables",
+  "header.resources.podcast": "Podcast",
+  "header.cta": "Sesión gratuita",
+
+  "footer.logoAlt": "Isotipo Owl Fox Crew",
+  "footer.poeticPhrase": "Contamos tus historias. Tu marca evoluciona.",
+  "footer.socialAlt": "Owl Fox Crew en {network}",
+  "footer.email": "hi@owlfoxcrew.com",
+  "footer.copyright": "Todos los derechos reservados.",
+
+  "hero.title1": "Historias cinematográficas que transforman cómo habla tu marca",
+  "hero.subtitle1": "IA como herramienta, no como eslogan. Combinamos estrategia creativa y tecnología inteligente para contar las historias de tu marca",
+  "hero.tagline": "No somos una agencia — somos una Solución Comunicacional",
+  "hero.cta1": "Explora nuestro enfoque narrativo",
+  "hero.cta2": "Comunica diferente — Hablemos",
   "hero.muteAudio": "Silenciar audio",
-  "hero.enableAudio": "Activar audio"
+  "hero.enableAudio": "Activar audio",
+
+  "brandValues.title": "De la esencia a la audiencia",
+  "brandValues.subtitle": "Tu marca cada vez más reconocida",
+
+  "brandValues.ctaIntro": "Tu marca puede comunicar así",
+  "brandValues.ctaButton": "Hagámoslo posible",
+
+  "brandValues.cards.0.title": "Narrativa con alma",
+  "brandValues.cards.0.highlight": "Más historias a medida, menos plantillas genéricas",
+  "brandValues.cards.0.subtitle": "Crea relatos auténticos que hablan el idioma de tus clientes, fortalece tu marca y deja una huella. Comunica de forma emocional para que tu mensaje trascienda la pantalla, conecte con tu audiencia y tome como propio tu mensaje.",
+  "brandValues.cards.0.image": "identity.jpg",
+
+  "brandValues.cards.1.title": "Propósito definido",
+  "brandValues.cards.1.highlight": "Más IA con intención, menos ruido artificial",
+  "brandValues.cards.1.subtitle": "Utiliza la inteligencia artificial de manera estratégica para crear contenido útil y con propósito. Optimiza cada pieza para que sume a tus objetivos y potencie tus resultados sin perder la esencia humana que te distingue.",
+  "brandValues.cards.1.image": "connection.jpg",
+
+  "brandValues.cards.2.title": "Diferenciación disruptiva",
+  "brandValues.cards.2.highlight": "Más presencia de marca, menos anonimato",
+  "brandValues.cards.2.subtitle": "Construye un estilo de comunicación propio que te haga fácilmente reconocible. Con mensajes únicos y una narrativa innovadora, destaca, conecta y ocupa un lugar preferente en la mente de tu audiencia.",
+  "brandValues.cards.2.image": "strategy.jpg",
+
+  "brandValues.cards.3.title": "Continuidad real",
+  "brandValues.cards.3.highlight": "Más acompañamiento constante, menos acciones aisladas",
+  "brandValues.cards.3.subtitle": "Avanza con un plan de comunicación que evoluciona contigo. Cada paso será coherente, estratégico y diseñado para fortalecer tu marca de forma sostenida.",
+  "brandValues.cards.3.image": "direction.jpg",
+
+  "brandValues.cards.4.title": "Iteración estratégica",
+  "brandValues.cards.4.highlight": "Más narrativa que avanza, menos contenido estático",
+  "brandValues.cards.4.subtitle": "Ajusta tu contenido según resultados reales para que cada mensaje comunique más y mejor. Transforma los datos en decisiones creativas que impulsen tu crecimiento y afiancen tu posicionamiento.",
+  "brandValues.cards.4.image": "efficiency.jpg",
+
+  "brandValues.cards.5.title": "Cercanía que conecta",
+  "brandValues.cards.5.highlight": "Más comunicación humana, menos mensajes fríos",
+  "brandValues.cards.5.subtitle": "Conoce a tu audiencia y habla su idioma. Crea mensajes cercanos y auténticos que hagan que se sientan escuchados, valorados y parte activa de tu historia.",
+  "brandValues.cards.5.image": "scalable.jpg",
+
+  "ValueOffer.title.line1": "Intención en cada comunicación,",
+  "ValueOffer.title.line2": "tu marca en cada historia",
+
+  "ValueOffer.benefit1.title": "Co-creamos contigo,",
+  "ValueOffer.benefit1.subtitle": "no para ti.",
+
+  "ValueOffer.benefit2.title": "Seleccionamos herramientas de IA",
+  "ValueOffer.benefit2.subtitle": "en función a tu proyecto.",
+
+  "ValueOffer.benefit3.title": "Optimizamos tu contenido con datos,",
+  "ValueOffer.benefit3.subtitle": "no con suposiciones.",
+
+  "ValueOffer.benefit4.title": "Creatividad resolutiva.",
+  "ValueOffer.benefit4.subtitle": "Estrategias escalables.",
+
+  "ValueOffer.benefit5.title": "Flujo de trabajo probado.",
+  "ValueOffer.benefit5.subtitle": "Precios transparentes.",
+
+  "ValueOffer.benefit6.title": "Presencia constante.",
+  "ValueOffer.benefit6.subtitle": "Impulsamos la evolución de tu marca",
+
+  "ValueOffer.closing": "En cada frame, una oportunidad de conectar",
+
+  "communicationKeys.title": "Cuando tu comunicación encuentra su forma",
+  "communicationKeys.subtitle": "Tu marca empieza a ser escuchada",
+
+  "communicationKeys.ctaIntro": "Tus comunicaciones como experiencias cinematográficas",
+  "communicationKeys.ctaButton": "Hagamos que suceda",
+  "communicationKeys.ctaHref": "#",
+
+  "communicationKeys.slides.0.key": "Identity",
+  "communicationKeys.slides.0.title": "IDENTIDAD",
+  "communicationKeys.slides.0.phrase": "Tu comunicación empieza a sonar como tú.",
+  "communicationKeys.slides.0.subtitle": "Trabajamos desde tu esencia para darle forma y dirección.",
+  "communicationKeys.slides.0.image": "identity.png",
+
+  "communicationKeys.slides.1.key": "Criteria",
+  "communicationKeys.slides.1.title": "CRITERIO",
+  "communicationKeys.slides.1.phrase": "Cada decisión creativa tiene sentido.",
+  "communicationKeys.slides.1.subtitle": "Elegimos duración, ritmo, tono y canal con base estratégica.",
+  "communicationKeys.slides.1.image": "criteria.png",
+
+  "communicationKeys.slides.2.key": "Direction",
+  "communicationKeys.slides.2.title": "TECNOLOGÍA",
+  "communicationKeys.slides.2.phrase": "La IA se vuelve una aliada con propósito.",
+  "communicationKeys.slides.2.subtitle": "No reemplaza, potencia lo que tu marca quiere contar.",
+  "communicationKeys.slides.2.image": "Coherence.png",
+
+  "communicationKeys.slides.3.key": "Support",
+  "communicationKeys.slides.3.title": "CONEXIÓN",
+  "communicationKeys.slides.3.phrase": "Tus mensajes empiezan a generar impacto.",
+  "communicationKeys.slides.3.subtitle": "Diseñamos para emocionar, no sólo informar.",
+  "communicationKeys.slides.3.image": "Link.png",
+
+  "communicationKeys.slides.4.key": "System",
+  "communicationKeys.slides.4.title": "COHERENCIA",
+  "communicationKeys.slides.4.phrase": "Todo fluye con una misma intención",
+  "communicationKeys.slides.4.subtitle": "Desde la estética al contenido, nada queda al azar.",
+  "communicationKeys.slides.4.image": "Tech.png",
+
+  "communicationKeys.slides.5.key": "Connection",
+  "communicationKeys.slides.5.title": "VÍNCULO",
+  "communicationKeys.slides.5.phrase": "Trabajamos como parte de tu equipo.",
+  "communicationKeys.slides.5.subtitle": "No tercerizamos creatividad, co-creamos contigo",
+  "communicationKeys.slides.5.image": "Connection.png",
+
+  "carousel.prev": "Anterior",
+  "carousel.next": "Siguiente",
+  "carousel.goTo": "Ir al slide {index}",
+
+  "workflow.sectionTitle": "Un proceso pensado para marcas con propósito",
+  "workflow.sectionSubtitle": "Un viaje narrativo a medida de tu marca",
+  "workflow.footerQuote": "Porque comunicar es mucho más que contar: es conectar",
+
+  "workflow.title": "Workflow Owl Fox Crew",
+  "workflow.subtitle": "Una travesía narrativa",
+  "workflow.text": "En Owl Fox Crew transformamos la comunicación en un viaje creativo donde cada etapa tiene un propósito claro. Exploramos la esencia de tu marca, diseñamos la narrativa y elegimos el formato ideal —cortometraje, tráiler, documental, marketing o animado— para que tu voz se exprese con autenticidad y fuerza.\n\nEl proceso continúa con la producción, la co-creación y los ajustes finales que elevan la pieza a su mejor versión. Luego la lanzamos, activamos su alcance y acompañamos la evolución de tu historia en el tiempo. Un flujo vivo y cinematográfico que asegura que tu relato no solo se cuente, sino que trascienda.",
+  "workflow.keystone": "Relato auténtico + Proceso vivo que evoluciona.",
+
+  "explora.title": "Exploración narrativa",
+  "explora.subtitle": "Escuchamos con atención",
+  "explora.text": "Nos sumergimos en tu universo para entender lo que mueve a tu marca y lo que necesita comunicar. Una conversación sin moldes ni relojes, que nos permite descubrir la esencia de tu historia y el tono con el que debe ser contada. Aquí nacen las primeras intuiciones, los referentes visuales y el pulso emocional que guiarán la narrativa. Todo culmina con el objetivo comunicacional que motiva la historia claramente definido y enmarcado en un contexto.",
+  "explora.keystone": "Objetivo comunicacional claro + Fácilmente entendible",
+
+  "disena.title": "Diseño estratégico de historia",
+  "disena.subtitle": "Transformamos visión en estructura",
+  "disena.text": "Creamos la columna visual de tu narrativa: con ritmo, intención emocional y coherencia estética. Desde la gran idea hasta los detalles clave, el storyboard traza la arquitectura de cada escena y permite anticipar la experiencia audiovisual. En esta fase se define bajo qué formato se desea abordar la historia y, a partir de esta decisión, se consolidan las escenas, los encuadres, las atmósferas, la cadencia que tendrá la historia, el ritmo y tiempos, musicalización, diálogos, duración, etc., siempre alineado con el objetivo comunicacional de la historia.",
+  "disena.keystone": "Storyboard + Fotografía (estética) + Musicalización",
+
+  "produce.title": "Producción cinematográfica + IA con criterio",
+  "produce.subtitle": "Creamos piezas con alma y precisión",
+  "produce.text": "Animamos, musicalizamos y editamos usando tecnología inteligente — siempre al servicio del lenguaje audiovisual. Cada decisión técnica está guiada por la sensibilidad artística, cuidando la continuidad visual y el impacto emocional de la obra. La atención al detalle y el refinamiento técnico dan lugar a una historia con identidad propia, lista para ser compartida.",
+  "produce.keystone": "Clip integral y completo",
+
+  "cocrea.title": "Co-Creación entre todas las partes",
+  "cocrea.subtitle": "Una etapa de diálogo creativo",
+  "cocrea.text": "Cliente y crew se encuentran en un intercambio vivo donde las ideas se enriquecen, se contrastan y se transforman. Un proceso de ida y vuelta, de construcción conjunta, donde cada intervención aporta valor estratégico, asegurando que la pieza conserve autenticidad y refleje lo mejor de todas las visiones. El cliente es parte fundamental de la historia.",
+  "cocrea.keystone": "Participación activa + Intervenciones estratégicas",
+
+  "master.title": "Masterización + Ajustes finales",
+  "master.subtitle": "La obra en su mejor versión",
+  "master.text": "Es el momento de pulir cada detalle: corrección de color, balance de sonido, transiciones precisas y adaptación a diferentes formatos. Como en cualquier gran producción, la fase de masterización asegura que la pieza brille con la máxima calidad estética y técnica antes de su salida. Nada queda al azar y cada detalle eleva la experiencia.",
+  "master.keystone": "Versión final lista",
+
+  "lanza.title": "Lanzamiento en canales definidos",
+  "lanza.subtitle": "Historia visible al encuentro de su audiencia",
+  "lanza.text": "Programamos la salida de la historia en los canales definidos y verificamos que el lanzamiento sea impecable. El contenido se despliega con cuidado, asegurando que cada audiencia lo reciba de forma clara, atractiva y sin fricciones. Un lanzamiento pensado para impactar desde el primer instante y marca el inicio de la etapa de activación.",
+  "lanza.keystone": "Estreno + Seguimiento",
+
+  "activa.title": "Activación + Análisis continuo",
+  "activa.subtitle": "La historia se estudia, se mide y se afina",
+  "activa.text": "Cada pieza se distribuye estratégicamente y observamos cómo interactúa la audiencia con ella. Analizamos métricas, tiempos de visualización, reacciones y compartidos. Lo que funciona se amplifica; lo que puede mejorar, evoluciona. Esta etapa convierte la narrativa en un organismo vivo que aprende, se adapta y genera un impacto cada vez más preciso.",
+  "activa.keystone": "Informe + Decisiones",
+
+  "une.title": "Acompañamiento 360",
+  "une.subtitle": "No somos un proveedor, formamos parte",
+  "une.text": "El vínculo no termina con la entrega: acompañamos cada nuevo paso con visión estratégica y sensibilidad creativa. Acompañamos y motivamos el crecimiento de tu marca, bien expandiendo historias, creando nuevas versiones de una historia, adaptando piezas a distintos contextos o preparando futuras comunicaciones; estamos ahí como parte del crecimiento. Más que entregas, construimos relaciones que evolucionan en el tiempo.",
+  "une.keystone": "Acompañamiento humano",
+
+  "shortfilm.title": "Cortometraje",
+  "shortfilm.subtitle": "Sembrar historias que trascienden",
+  "shortfilm.text": "El cortometraje es el formato que permite construir una narrativa profunda, con capas emocionales y simbólicas que posicionan a la marca en el mediano y largo plazo. No busca la inmediatez, sino generar un recuerdo perdurable, un relato que se planta como semilla y crece con el tiempo en la mente y el corazón de la audiencia. Puede desarrollarse en capítulos, contados por entregas, creando expectativa y una conexión constante con el público objetivo.",
+  "shortfilm.keystone": "Construcción de marca a mediano y largo plazo",
+
+  "trailer.title": "Tráiler",
+  "trailer.subtitle": "Impacto por segundo",
+  "trailer.text": "El tráiler condensa la energía de una historia en un destello intenso. Con ritmo frenético, suspenso y emoción, genera deseo, expectativa o incluso ansiedad en el espectador. Escenas cargadas de contenido se entrecortan con mensajes directos que subrayan lo que importa. Es el formato de la urgencia, de lo inmediato, de la chispa que enciende.",
+  "trailer.keystone": "Captar atención rápida + despertar deseo inmediato",
+
+  "documentary.title": "Documental",
+  "documentary.subtitle": "La fuerza de lo humano",
+  "documentary.text": "El documental conecta desde la autenticidad, mostrando procesos, visiones y relatos que construyen confianza. Puede ser literal o ficticio, pero siempre con el objetivo de transmitir humanidad y credibilidad. Es el formato ideal para dar voz a historias con rostro y alma, aquellas que transmiten verdad más allá de los hechos.",
+  "documentary.keystone": "Generar confianza + transmitir visión y valores",
+
+  "marketing.title": "Marketing",
+  "marketing.subtitle": "Comunicación directa que convierte",
+  "marketing.text": "El formato de marketing va al grano: mostrar, destacar y vender. Aquí cada imagen y palabra están al servicio de los beneficios, la usabilidad o la propuesta de valor de un producto o servicio. La historia se cuenta de manera estratégica para impulsar decisiones rápidas y eficaces.",
+  "marketing.keystone": "Venta de un bien y/o servicio de forma directa y expedita",
+
+  "animated.title": "Animado",
+  "animated.subtitle": "Creatividad sin límites",
+  "animated.text": "El formato animado abre un universo de posibilidades: mundos imposibles, metáforas visuales y estilos únicos que cautivan a primera vista. Permite simplificar conceptos complejos, comunicar de manera ligera y dar un aire fresco y memorable a cualquier narrativa. Es versátil, dinámico y altamente atractivo.",
+  "animated.keystone": "Explicar conceptos complejos de forma clara + impacto visual atractivo",
+
+  "brandStories.sectionTitle": "Narrativas únicas que inspiran y trascienden",
+  "brandStories.sectionSubtitle": "Dando voz a tu marca, una historia a la vez",
+
+  "brandStories.cards.0.title": "Historias que conectan",
+  "brandStories.cards.0.subtitle": "Marcas que inspiran",
+
+  "brandStories.cards.1.title": "Narrativas auténticas",
+  "brandStories.cards.1.subtitle": "Decisiones que transforman",
+
+  "brandStories.cards.2.title": "Impacto real",
+  "brandStories.cards.2.subtitle": "Más allá de la publicidad",
+
+  "brandStories.cta.text": "Comunica diferente - Crea algo inolvidable",
+  "brandStories.cta.button": "Dale voz a tu marca",
+
+  "faqs.sectionTitle": "Las preguntas también cuentan una historia",
+  "faqs.sectionSubtitle": "Narramos sus respuestas ilustradamente",
+
+  "faqs.intro.title": "Preguntar es una forma de crear",
+  "faqs.intro.subtitle": "Tus dudas como punto de partida",
+  "faqs.intro.text": "En Owl Fox Crew creemos que ninguna pregunta es pequeña, porque toda gran historia comienza con una duda. Este es un espacio abierto donde cada inquietud tiene su lugar. Nuestro compromiso no es solo despejar dudas, sino también crear soluciones y sumar estrategias que nos permitan acompañarte en tu camino y crecer contigo para hacer resonar con más fuerza tu historia.\n\nCada respuesta es parte de la experiencia: clara, auténtica y diseñada para darte certeza en cualquier etapa del proceso. Pregunta lo que necesites, estamos aquí para escucharte y transformar esas dudas en nuevas oportunidades para tu marca.",
+
+  "faqs.nube1.question": "¿Si soy una marca en crecimiento también puedo contactarlos, o sólo trabajan con grandes marcas?",
+  "faqs.nube1.answer": "¡Claro que sí! Trabajamos con marcas en crecimiento, startups y grandes empresas. Lo importante no es el tamaño, sino el propósito y la visión detrás de la historia que deseas contar.",
+
+  "faqs.nube2.question": "¿Qué los diferencia de una agencia tradicional?",
+  "faqs.nube2.answer": "No tenemos cuentas, tenemos aliados comerciales. No seguimos briefs, cocreamos. No entregamos piezas, construimos narrativas con identidad y propósito.",
+
+  "faqs.nube3.question": "¿Usan IA para reemplazar personas?",
+  "faqs.nube3.answer": "No. Usamos IA para potenciar la mirada creativa, no para suplantarla. Las herramientas suman, pero el criterio humano es irremplazable.",
+
+  "faqs.nube4.question": "¿Qué pasa si no sé por dónde empezar?",
+  "faqs.nube4.answer": "Empezamos por lo más simple: charlar. Vos traés la inquietud, nosotros trazamos el camino. Nada de formularios infinitos ni procesos fríos.",
+
+  "faqs.nube5.question": "¿Puedo contratar solo una parte del proceso?",
+  "faqs.nube5.answer": "Claro. Nuestra estructura es modular. Podés sumar solo lo que tu marca necesita ahora y escalar con el tiempo, si así lo decidís.",
+
+  "faqs.nube6.question": "¿Qué participación tengo en el proceso?",
+  "faqs.nube6.answer": "Toda la que quieras. Es tu historia, vos decidís qué contar y cómo. Nosotros estamos para construirla con vos. Somos una crew, no un proveedor.",
+
+  "faqs.nube7.question": "¿Con qué persona o área de mi empresa deberían hablar?",
+  "faqs.nube7.answer": "Suelen contactarnos desde marketing, contenido o dirección. Pero podemos conversar con quien lleve adelante las comunicaciones de tu marca.",
+
+  "faqs.labels.question": "Pregunta:",
+  "faqs.labels.answer": "Respuesta:",
+
+  "faqForm.title": "Preguntar abre nuevos caminos",
+  "faqForm.subtitle": "Respuestas claras y asertivas permiten recorrerlos",
+  "faqForm.description": "Si tienes alguna inquietud adicional, cuéntanosla. Queremos escucharte",
+
+  "faqForm.fields.name": "Tu nombre",
+  "faqForm.fields.email": "Tu correo electrónico",
+  "faqForm.fields.brand": "Tu marca o proyecto",
+  "faqForm.fields.question": "Tu pregunta",
+
+  "faqForm.optional": "opcional",
+
+  "faqForm.placeholders.name": "Escríbelo aquí...",
+  "faqForm.placeholders.email": "ejemplo@correo.com",
+  "faqForm.placeholders.brand": "Cuéntanos brevemente",
+  "faqForm.placeholders.question": "Escríbela aquí...",
+
+  "faqForm.submit": "¡Luz, cámara… pregunta!",
+
+  "faqForm.success.title": "✨ ¡Gracias por tu confianza!",
+  "faqForm.success.message": "Nuestro crew recibió tu pregunta y pronto tendrás una respuesta clara y directa.",
+
+  "faqForm.footerNote": "Al enviar aceptas que nos pongamos en contacto contigo para responder tu consulta.",
+
+  "services.hero.alt": "Imagen de fondo sección servicios",
+  "services.hero.headline1": "Deja de ser visto,",
+  "services.hero.headline2": "empieza a ser escuchado",
+
+  "services.intro.title": "Narrar distinto hace de tus comunicaciones algo auténtico",
+  "services.intro.subtitle": "Un puente entre lo que tu marca es y lo que inspira",
+
+  "services.intro.emotional.title": "Beneficios emocionales",
+  "services.intro.emotional.alt": "Beneficios emocionales",
+  "services.intro.emotional.item1": "Tu audiencia te reconoce y recuerda",
+  "services.intro.emotional.item2": "Tu equipo se alinea",
+  "services.intro.emotional.item3": "Tu marca se vuelve narrativa, no solo visual",
+
+  "services.intro.strategic.title": "Beneficios estratégicos",
+  "services.intro.strategic.alt": "Beneficios estratégicos",
+  "services.intro.strategic.item1": "Menos contenido irrelevante, más impacto real",
+  "services.intro.strategic.item2": "Aprovechas presupuestos existentes",
+  "services.intro.strategic.item3": "Mides, aprendes y mejoras",
+
+  "services.intro.cta.text": "¿Listo para que tu marca cuente algo inolvidable?",
+  "services.intro.cta.button": "Comencemos tu Historia",
+
+  "services.format.title": "¿Qué formato u activación se adapta a tu historia?",
+  "services.format.intro": "No todos los mensajes se cuentan igual. A veces la fuerza está en lo real, otras en lo breve, otras en lo visual. Cada formato que ofrecemos es una pieza viva que se adapta a lo que tu proyecto necesita comunicar. Si lo que buscás es un acompañamiento que más allá del formato, te asesore y guíe respaldado en data, contamos con soluciones que impulsan tus comunicaciones.",
+
+  "services.format.shortfilm.question": "¿Quieres contar las historias de valor de tu marca y mostrar lo que la diferencia (como capítulos o pieza única)?",
+  "services.format.shortfilm.label": "Cortometraje",
+
+  "services.format.trailer.question": "¿Necesitas atrapar en segundos y dejar una huella inmediata?",
+  "services.format.trailer.label": "Tráiler",
+
+  "services.format.marketing.question": "¿Quieres dar fuerza a un nuevo producto, servicio o promoción clave?",
+  "services.format.marketing.label": "Marketing",
+
+  "services.format.documentary.question": "¿Buscas transmitir con realismo y generar confianza desde lo verdadero?",
+  "services.format.documentary.label": "Documental",
+
+  "services.format.animated.question": "¿Quieres explicar un concepto complejo de forma clara y atractiva?",
+  "services.format.animated.label": "Animado",
+
+  "services.format.activation.question": "¿Buscas apoyo puntual para un estreno o un partner creativo que acompañe y evolucione con tu marca en el tiempo?",
+  "services.format.activation.label1": "Activación Estratégica",
+  "services.format.activation.label2": "Experiencia 360º",
+
+  "services.quick.title": "¡Cada historia pide su propio escenario, descubramos el tuyo!",
+  "services.quick.subtitle": "Un quiz, dos preguntas y el formato perfecto para tu marca",
+  "services.quick.intro": "Si ya tienes una campaña con un lanzamiento programado, en fase creativa o en desarrollo con características específicas, este quiz interactivo te acercará a los dos formatos ideales con los que sugerimos contar tu historia.",
+  "services.quick.q1": "¿Qué deseas comunicar?",
+  "services.quick.q1.shortfilm": "Una historia de marca",
+  "services.quick.q1.marketing": "Un producto nuevo",
+  "services.quick.q1.animated": "Un concepto complejo",
+  "services.quick.q1.documentary": "Un testimonio real",
+  "services.quick.q1.trailer": "Una expectativa, un recuerdo",
+  "services.quick.q2": "¿Qué esperas lograr con esta comunicación?",
+  "services.quick.q2.shortfilm": "Emocionar y Atraer",
+  "services.quick.q2.documentary": "Confianza y Realidad",
+  "services.quick.q2.animated": "Explicar y Guiar",
+  "services.quick.q2.trailer": "Impacto y Ritmo",
+  "services.quick.q2.marketing": "Presencia y Posicionamiento",
+  "services.quick.select": "Selecciona una opción",
+  "services.quick.cta": "Descubrir mi formato ideal",
+  "services.quick.result.single": "Lo tienes muy claro, te recomendamos este formato:",
+  "services.quick.result.multiple": "Tu comunicación orbita entre estas dos opciones",
+  "services.quick.result.cta.single": "¿Le damos vida a tu historia?",
+  "services.quick.result.cta.multi": "Exploramos este formato →",
+  "services.quick.shortfilm.label": "Cortometraje",
+  "services.quick.shortfilm.desc": "Ideal para contar historias profundas de tu marca en capítulos o piezas únicas.",
+  "services.quick.marketing.label": "Marketing",
+  "services.quick.marketing.desc": "Perfecto para dar fuerza a un nuevo producto, servicio o promoción clave.",
+  "services.quick.animated.label": "Animado",
+  "services.quick.animated.desc": "Explica conceptos complejos de forma clara, visual y atractiva.",
+  "services.quick.documentary.label": "Documental",
+  "services.quick.documentary.desc": "Transmitir con realismo y generar confianza desde lo verdadero.",
+  "services.quick.trailer.label": "Tráiler",
+  "services.quick.trailer.desc": "Atrapa en segundos y deja una huella inmediata con impacto visual.",
+
+  "services.help.title": "¿Todavía no estás seguro del formato ideal?",
+  "services.help.subtitle": "Charlemos y descubrámoslo juntos",
+  "services.help.text": "Es más común de lo que imaginas: cada historia es única y late con su propio ritmo. Cualquiera sea la etapa de tu proyecto podemos definir juntos un recorrido narrativo donde el formato se convierta en el megáfono, tu marca en la protagonista y tu historia en el puente que conecte con nuevas audiencias y genere vínculos que perduran.",
+  "services.help.cta": "Cada historia comienza con una conversación",
+
+    "services.formatSolutions.header.title": "Formatos y Activaciones que se adaptan y evolucionan con tus comunicaciones",
+  "services.formatSolutions.header.subtitle": "Cada solución es un escenario distinto donde tu historia es la protagonista",
+  "services.formatSolutions.header.intro": "No todas las marcas necesitan lo mismo en cada etapa de su viaje. Por eso te ofrecemos formatos y acompañamientos que se adaptan a tu ritmo y evolucionan con tus comunicaciones. Con cada solución se habilita un espacio donde tu historia encuentra la forma más poderosa de conectar y ser escuchada.",
+
+  "services.formatSolutions.blocks.shortfilm.title": "Cortometraje",
+  "services.formatSolutions.blocks.shortfilm.highlight": "Cuando tu marca merece una película propia",
+  "services.formatSolutions.blocks.shortfilm.summary": "El cortometraje es el formato más inmersivo. Un relato cinematográfico que emociona, profundiza y deja huella. Una pieza audiovisual de calidad cinematográfica diseñada para transmitir la esencia, valores y propósito de tu marca en profundidad. Ideal para hitos estratégicos, campañas de posicionamiento o relatos que merecen desplegarse como un viaje completo. En redes sociales puede dividirse en capítulos o highlights para mantener la atención y extender su impacto.",
+  "services.formatSolutions.blocks.shortfilm.cta": "Hagamos de mi historia un Corto",
+  "services.formatSolutions.blocks.shortfilm.spec.duration": "1:30–5 min (adaptable en capítulos para redes)",
+  "services.formatSolutions.blocks.shortfilm.spec.tone": "Profundo, emocional, inmersivo",
+  "services.formatSolutions.blocks.shortfilm.spec.ideal": "Branding, posicionamiento, hitos clave",
+  "services.formatSolutions.blocks.shortfilm.spec.music": "Alto – banda sonora como motor narrativo",
+  "services.formatSolutions.blocks.shortfilm.spec.strategy": "Construcción de identidad y diferenciación a largo plazo",
+  "services.formatSolutions.blocks.shortfilm.spec.challenge": "Mantener atención y ritmo en un formato más extenso",
+  "services.formatSolutions.blocks.shortfilm.spec.connection": "🦉🦉🦉🦉 (construye vínculo fuerte y memorable)",
+  "services.formatSolutions.blocks.shortfilm.spec.emotion": "🦊🦊🦊🦊🦊 (máxima intensidad emocional)",
+
+  "services.formatSolutions.blocks.trailer.title": "Trailer",
+  "services.formatSolutions.blocks.trailer.highlight": "Una descarga de energía narrativa que impacta y se recuerda",
+  "services.formatSolutions.blocks.trailer.summary": "El tráiler es un formato breve, potente y de alto impacto. Condensa lo esencial de tu historia en pocos segundos para captar atención inmediata y dejar una huella memorable. Ideal para lanzamientos, campañas en redes y momentos donde cada segundo cuenta. Su fuerza está en el ritmo visual y musical, logrando un relato que atrapa sin necesidad de extenderse.",
+  "services.formatSolutions.blocks.trailer.cta": "Hagamos de mi historia un Trailer",
+  "services.formatSolutions.blocks.trailer.spec.duration": "30–120 seg (optimizado para redes)",
+  "services.formatSolutions.blocks.trailer.spec.tone": "Intenso, ágil, directo",
+  "services.formatSolutions.blocks.trailer.spec.ideal": "Lanzamientos, campañas digitales, eventos",
+  "services.formatSolutions.blocks.trailer.spec.music": "Muy alto – la música marca el pulso",
+  "services.formatSolutions.blocks.trailer.spec.strategy": "Generar recordación inmediata y viralidad",
+  "services.formatSolutions.blocks.trailer.spec.challenge": "Sintetizar la esencia en segundos sin perder emoción",
+  "services.formatSolutions.blocks.trailer.spec.connection": "🦉🦉🦉🦉 (alto engagement inicial, se potencia con amplificación o continuidad)",
+  "services.formatSolutions.blocks.trailer.spec.emotion": "🦊🦊🦊🦊 (impacto fuerte, emocional y memorable)",
+
+  "services.formatSolutions.blocks.marketing.title": "Marketing",
+  "services.formatSolutions.blocks.marketing.highlight": "Un formato atractivo, pensado para impulsar tus servicios",
+  "services.formatSolutions.blocks.marketing.summary": "El formato de marketing está diseñado para dar fuerza a un producto, servicio o promoción específica y transformarla en la protagonista de la escena. Su narrativa combina claridad estratégica con impacto visual, asegurando que el mensaje sea directo y memorable. Perfecto para campañas en redes sociales, e-commerce o lanzamientos que requieren conversión inmediata. Puede adaptarse en versiones cortas o extendidas según la plataforma, manteniendo siempre el foco en generar acción.",
+  "services.formatSolutions.blocks.marketing.cta": "Hagamos de mi historia un spot publicitario",
+  "services.formatSolutions.blocks.marketing.spec.duration": "30 seg – 1:30 min (versión adaptable para redes y pauta)",
+  "services.formatSolutions.blocks.marketing.spec.tone": "Claro, dinámico, enfocado en beneficios",
+  "services.formatSolutions.blocks.marketing.spec.ideal": "Promociones, lanzamientos, productos/servicios clave",
+  "services.formatSolutions.blocks.marketing.spec.music": "Medio–alto, acompaña el ritmo sin eclipsar el mensaje",
+  "services.formatSolutions.blocks.marketing.spec.strategy": "Generar deseo y acción inmediata (clic, compra, registro)",
+  "services.formatSolutions.blocks.marketing.spec.challenge": "Equilibrar lo persuasivo con lo emocional sin sonar comercial",
+  "services.formatSolutions.blocks.marketing.spec.connection": "🦉🦉🦉 (alto, orientado a acción concreta)",
+  "services.formatSolutions.blocks.marketing.spec.emotion": "🦊🦊🦊 (emocional, pero con foco en conversión)",
+
+  "services.formatSolutions.blocks.documentary.title": "Documental",
+  "services.formatSolutions.blocks.documentary.highlight": "Un relato auténtico que transmite confianza desde lo real",
+  "services.formatSolutions.blocks.documentary.summary": "El documental es el formato que asume la verdad como una fortaleza y pone en primer plano la autenticidad. Muestra a tu marca desde lo verdadero, con testimonios, procesos y contextos que generan credibilidad y cercanía. Es ideal para comunicar propósito, proyectos de impacto, cultura organizacional o historias humanas que fortalecen la confianza de la audiencia. En redes puede adaptarse en fragmentos cortos, generando una serie de piezas que prolongan su vida útil y multiplican el alcance.",
+  "services.formatSolutions.blocks.documentary.cta": "Hagamos de mi historia un Documental",
+  "services.formatSolutions.blocks.documentary.spec.duration": "1–4 min (adaptable en clips para redes)",
+  "services.formatSolutions.blocks.documentary.spec.tone": "Realista, honesto, transparente",
+  "services.formatSolutions.blocks.documentary.spec.ideal": "Propósito de marca, impacto social, cultura interna",
+  "services.formatSolutions.blocks.documentary.spec.music": "Bajo–medio, acompaña sin imponerse sobre lo real",
+  "services.formatSolutions.blocks.documentary.spec.strategy": "Construir credibilidad y cercanía, reforzar confianza",
+  "services.formatSolutions.blocks.documentary.spec.challenge": "Mantener el equilibrio entre lo informativo y lo inspirador",
+  "services.formatSolutions.blocks.documentary.spec.connection": "🦉🦉🦉🦉🦉 (alto, conecta desde lo humano y lo real)",
+  "services.formatSolutions.blocks.documentary.spec.emotion": "🦊🦊🦊🦊 (emocional, genuino, reflexivo)",
+
+  "services.formatSolutions.blocks.animated.title": "Animado",
+  "services.formatSolutions.blocks.animated.highlight": "Ideas retadoras convertidas en relatos dinámicos y memorables",
+  "services.formatSolutions.blocks.animated.summary": "El animado es el formato ideal para explicar conceptos complejos de manera clara, entretenida y atractiva. Permite jugar con metáforas visuales, gráficos en movimiento y personajes que facilitan la comprensión. Es perfecto para educación corporativa, onboarding, presentaciones de servicios o campañas donde la claridad es clave. En redes se adapta en microclips dinámicos que capturan la atención rápidamente y pueden ser parte de una serie.",
+  "services.formatSolutions.blocks.animated.cta": "Hagamos de mi historia un clip animado",
+  "services.formatSolutions.blocks.animated.spec.duration": "30 seg – 3 min (fragmentable en clips para redes)",
+  "services.formatSolutions.blocks.animated.spec.tone": "Claro, dinámico, didáctico",
+  "services.formatSolutions.blocks.animated.spec.ideal": "Explicaciones, educación, servicios, procesos",
+  "services.formatSolutions.blocks.animated.spec.music": "Medio, acompaña con energía y ritmo lúdico",
+  "services.formatSolutions.blocks.animated.spec.strategy": "Simplificar lo complejo y aumentar la retención",
+  "services.formatSolutions.blocks.animated.spec.challenge": "Traducir ideas abstractas en metáforas visuales comprensibles",
+  "services.formatSolutions.blocks.animated.spec.connection": "🦉🦉🦉🦉 (alto, conecta desde lo didáctico y accesible)",
+  "services.formatSolutions.blocks.animated.spec.emotion": "🦊🦊🦊🦊 (emocional diferente: ligero, racional y claro)",
+
+  "services.formatSolutions.blocks.launch.title": "Activación Estratégica",
+  "services.formatSolutions.blocks.launch.highlight": "El impulso preciso para momentos clave",
+  "services.formatSolutions.blocks.launch.summary.0": "El Lanzamiento Único es nuestra forma de estar presentes cuando tu marca necesita foco absoluto en un momento específico. Es un acompañamiento estratégico y concentrado que asegura que la pieza que creamos juntos salga con la máxima fuerza, en el momento exacto y en los canales adecuados.",
+  "services.formatSolutions.blocks.launch.summary.1": "No se trata solo de publicar, sino de amplificar: en esta fase proponemos y desarrollamos contenidos de apoyo (clips, teasers, posts adaptados) que extienden la vida útil de la pieza central y multiplican su alcance, dando dirección, cuidando el timing y asegurándonos de que la historia llegue con impacto real a su audiencia.",
+  "services.formatSolutions.blocks.launch.summary.2": "Durante un período definido entre las partes, realizamos seguimiento y análisis del comportamiento de la pieza en los distintos canales: medimos, interpretamos datos y ajustamos siempre que el proyecto lo permite. El proceso cierra con la entrega de un informe que sintetiza lo aprendido, con recomendaciones claras para potenciar futuras publicaciones.",
+  "services.formatSolutions.blocks.launch.cta": "Quiero iniciar mi activación",
+
+  "services.formatSolutions.blocks.experience.title": "Experiencia 360º",
+  "services.formatSolutions.blocks.experience.highlight": "Acompañamiento continuo que hace crecer tu marca en el tiempo",
+  "services.formatSolutions.blocks.experience.summary.0": "La Experiencia 360º es la activación más completa de Owl Fox Crew: un proceso vivo donde formamos parte activa del recorrido comunicacional de tu marca, buscando transformar cada pieza en parte de una narrativa mayor. No hablamos de un único momento, sino de una estrategia prolongada donde tu comunicación se activa de forma constante, evoluciona y se consolida con coherencia y continuidad.",
+  "services.formatSolutions.blocks.experience.summary.1": "Durante un período definido entre las partes, desplegamos un ciclo que integra producción, lanzamientos sucesivos y piezas de apoyo que amplifican cada historia. Paralelamente realizamos un seguimiento continuo, midiendo resultados, analizando interacciones y transformando los datos en decisiones creativas y estratégicas que mantienen tu voz fresca y relevante.",
+  "services.formatSolutions.blocks.experience.summary.2": "La Experiencia 360º es ideal para marcas que buscan construir una comunicación sólida en el tiempo, entendiéndola como un recorrido en constante evolución. Lejos de ser una acción aislada, es un viaje narrativo donde cada activación abre la puerta a la siguiente, genera un impacto sostenido y consolida vínculos reales con la audiencia.",
+  "services.formatSolutions.blocks.experience.cta": "Quiero iniciar mi experiencia 360º",
+
+    "services.formatSolutions.timeline.DefaultActivacion.label": "Activación Estratégica",
+  "services.formatSolutions.timeline.DefaultActivacion.title": "Micro-workflow de la Activación Estratégica",
+  "services.formatSolutions.timeline.DefaultActivacion.subtitle": "Un recorrido breve y enfocado",
+  "services.formatSolutions.timeline.DefaultActivacion.text": "Pensado como un workflow dentro del workflow madre. Esta línea temporal refleja las fases que aseguran que cada lanzamiento tenga dirección, impacto y aprendizaje.",
+
+  "services.formatSolutions.timeline.DefaultExperiencia.label": "Experiencia 360º",
+  "services.formatSolutions.timeline.DefaultExperiencia.title": "Micro-workflow de la Experiencia 360º",
+  "services.formatSolutions.timeline.DefaultExperiencia.subtitle": "Un ciclo que integra activación, análisis y evolución",
+  "services.formatSolutions.timeline.DefaultExperiencia.text": "Un proceso integral que refleja cómo se construye y se sostiene una narrativa viva en el tiempo, donde cada activación abre paso a la siguiente y los aprendizajes se convierten en mejoras aplicadas.",
+
+  "services.formatSolutions.timeline.Preparacion.label": "Preparación",
+  "services.formatSolutions.timeline.Preparacion.title": "Preparación",
+  "services.formatSolutions.timeline.Preparacion.subtitle": "Definimos la voz del momento",
+  "services.formatSolutions.timeline.Preparacion.text": "Analizamos el objetivo del lanzamiento, alineamos la narrativa de la pieza y diseñamos un plan de acción que conecta el mensaje con la audiencia de forma clara y poderosa.",
+
+  "services.formatSolutions.timeline.Impulso.label": "Impulso",
+  "services.formatSolutions.timeline.Impulso.title": "Impulso",
+  "services.formatSolutions.timeline.Impulso.subtitle": "Maximizamos el eco de tu historia",
+  "services.formatSolutions.timeline.Impulso.text": "Proponemos e integramos piezas de apoyo que refuerzan y amplifican la comunicación principal previo y post lanzamiento, manteniendo su presencia viva en el tiempo y asegurando que el mensaje viaje más lejos.",
+
+  "services.formatSolutions.timeline.Lanzamiento.label": "Lanzamiento",
+  "services.formatSolutions.timeline.Lanzamiento.title": "Lanzamiento",
+  "services.formatSolutions.timeline.Lanzamiento.subtitle": "Activamos en el instante justo",
+  "services.formatSolutions.timeline.Lanzamiento.text": "Publicamos la pieza protagonista en los canales seleccionados, cuidando la coherencia visual, el timing y la experiencia de usuario para asegurar que el contenido llegue sin fricciones.",
+
+  "services.formatSolutions.timeline.Medicion.label": "Medición",
+  "services.formatSolutions.timeline.Medicion.title": "Medición",
+  "services.formatSolutions.timeline.Medicion.subtitle": "Aprendemos del comportamiento real",
+  "services.formatSolutions.timeline.Medicion.text": "Analizamos cómo interactúa la audiencia con la pieza: tiempos de visualización, engagement, compartidos y conversiones. Los datos nos permiten identificar qué funcionó y qué debe evolucionar.",
+
+  "services.formatSolutions.timeline.Entrega.label": "Entrega",
+  "services.formatSolutions.timeline.Entrega.title": "Entrega",
+  "services.formatSolutions.timeline.Entrega.subtitle": "Transformamos datos en decisiones",
+  "services.formatSolutions.timeline.Entrega.text": "Concluimos el proceso con un informe claro y visual que sintetiza métricas, aprendizajes y aspectos clave a tener en cuenta para fortalecer futuros lanzamientos.",
+
+  "services.formatSolutions.timeline.Planeacion.label": "Planeación",
+  "services.formatSolutions.timeline.Planeacion.title": "Planeación",
+  "services.formatSolutions.timeline.Planeacion.subtitle": "Diseñamos la ruta completa",
+  "services.formatSolutions.timeline.Planeacion.text": "Definimos el período de activación, los objetivos estratégicos y la narrativa global que guiará todas las piezas. Cada decisión se toma con visión de continuidad y coherencia.",
+
+  "services.formatSolutions.timeline.Produccion.label": "Producción",
+  "services.formatSolutions.timeline.Produccion.title": "Producción",
+  "services.formatSolutions.timeline.Produccion.subtitle": "Creamos con identidad y dirección",
+  "services.formatSolutions.timeline.Produccion.text": "Desarrollamos las piezas protagonistas bajo una misma línea narrativa y estética, asegurando consistencia visual y emocional en todo el ciclo, fortaleciendo la identidad de marca con cada activación.",
+
+  "services.formatSolutions.timeline.Activaciones.label": "Activaciones",
+  "services.formatSolutions.timeline.Activaciones.title": "Activaciones",
+  "services.formatSolutions.timeline.Activaciones.subtitle": "La historia se despliega en capítulos",
+  "services.formatSolutions.timeline.Activaciones.text": "Publicamos de manera programada en los canales definidos, acompañando cada salida con piezas de apoyo que amplifican la comunicación y mantienen vivo el mensaje.",
+
+  "services.formatSolutions.timeline.Analisis.label": "Análisis",
+  "services.formatSolutions.timeline.Analisis.title": "Análisis",
+  "services.formatSolutions.timeline.Analisis.subtitle": "Medimos, aprendemos y aplicamos en tiempo real",
+  "services.formatSolutions.timeline.Analisis.text": "Observamos el comportamiento de cada activación, interpretamos métricas y aplicamos mejoras directamente en los próximos lanzamientos, dentro del período y la periodicidad permitida.",
+
+  "services.formatSolutions.timeline.Evolucion.label": "Evolución",
+  "services.formatSolutions.timeline.Evolucion.title": "Evolución",
+  "services.formatSolutions.timeline.Evolucion.subtitle": "Un cierre que proyecta futuro",
+  "services.formatSolutions.timeline.Evolucion.text": "Al finalizar el ciclo, entregamos un informe global con resultados consolidados, aprendizajes y una hoja de ruta clara para que la comunicación siga creciendo más allá del período de trabajo.",
+
+  "services.formatSolutions.table.title": "Brújula Comparativa de Formatos",
+  "services.formatSolutions.table.subtitle": "Cada historia es diferente: compara, diferencia y elige el camino narrativo indicado",
+  "services.formatSolutions.table.category": "Categoría",
+  "services.formatSolutions.table.col.shortfilm": "Cortometraje",
+  "services.formatSolutions.table.col.trailer": "Trailer",
+  "services.formatSolutions.table.col.marketing": "Marketing",
+  "services.formatSolutions.table.col.documentary": "Documental",
+  "services.formatSolutions.table.col.animated": "Animado",
+
+  "services.formatSolutions.bridge": "Cada formato es un vehículo distinto, cada acompañamiento una herramienta de impulso, pero todos buscan lo mismo: dar voz a tu historia.",
+  "services.formatSolutions.closing.text": "Una historia puede ser real o imaginada, pero siempre debe ser contada",
+  "services.formatSolutions.closing.cta1": "Quiero contar mi historia",
+  "services.formatSolutions.closing.cta2": "Aún no sé qué formato elegir",
+
+  "services.formatSolutions.spec.duration.label": "⏱️ Duración",
+  "services.formatSolutions.spec.tone.label": "🎭 Tono narrativo",
+  "services.formatSolutions.spec.ideal.label": "🎯 Ideal para",
+  "services.formatSolutions.spec.music.label": "🎵 Peso musical",
+  "services.formatSolutions.spec.strategy.label": "🗺️ Estrategia",
+  "services.formatSolutions.spec.challenge.label": "🧩 Reto",
+  "services.formatSolutions.spec.connection.label": "🦉 Nivel de conexión",
+  "services.formatSolutions.spec.emotion.label": "🦊 Nivel emocional",
+
+  "crew.hero.line1": "Una tripulación guiada",
+  "crew.hero.line2": "por la narrativa.",
+  "crew.hero.line3": "Impulsada por el deseo de",
+  "crew.hero.line4": "contar historias",
+
+  "crew.intro.header.title": "Hacemos que tu historias naveguen los siete mares",
+  "crew.intro.header.subtitle": "Una tripulación especializada, coordinada y creativa, capaz de navegar cualquier océano",
+
+  "crew.intro.card1.line1": "Somos quienes reman",
+  "crew.intro.card1.line2": "avante tus historias",
+  "crew.intro.card1.subtitle": "Compromiso creativo + Trabajo en equipo",
+  "crew.intro.card1.description": "En cada proyecto ponemos nuestra energía creativa en movimiento, impulsando tus relatos hacia adelante. Trabajamos como tripulación unida, remando en sincronía para dar ritmo y fuerza a tus historias.",
+
+  "crew.intro.card2.line1": "Somos quienes llevan tus",
+  "crew.intro.card2.line2": "comunicaciones a puerto seguro",
+  "crew.intro.card2.subtitle": "Objetivos claros",
+  "crew.intro.card2.description": "Ningún viaje narrativo se deja a la deriva. Trazamos un rumbo claro, cuidamos cada decisión y velamos porque tu historia llegue intacta a su destino. Seguridad, claridad y propósito guían nuestra travesía.",
+
+  "crew.intro.card3.line1": "Somos los que gritan",
+  "crew.intro.card3.line2": "tierra a la vista",
+  "crew.intro.card3.subtitle": "Comunicación efectiva",
+  "crew.intro.card3.description": "Anticipamos lo que otros no ven. Nuestra mirada estratégica señala oportunidades, abre horizontes y anuncia el momento justo para que tu mensaje resuene con fuerza. Somos voz que amplifica, somos visión que guía.",
+
+  "crew.intro.card4.line1": "Somos quienes documentan",
+  "crew.intro.card4.line2": "tu viaje",
+  "crew.intro.card4.subtitle": "Continuidad narrativa + Apoyo en data",
+  "crew.intro.card4.description": "Cada capítulo de tu historia merece ser registrado. Como en una bitácora náutica, damos continuidad a tu narrativa mientras registramos los resultados y datos de cada viaje; traduciendo cada experiencia en un aprendizaje que fortalece el recorrido de tu marca.",
+
+  "crew.intro.card5.line1": "Somos exploradores",
+  "crew.intro.card5.line2": "de mundos narrativos",
+  "crew.intro.card5.subtitle": "Espíritu viajero",
+  "crew.intro.card5.description": "Nos mueve la curiosidad y el deseo de descubrir nuevas formas de contar. Viajamos más allá de lo conocido para abrir caminos narrativos únicos, llevando tus historias a territorios visuales y emocionales aún inexplorados.",
+
+  "crew.intro.quote": "Antes de zarpar en este viaje narrativo, conoce a la tripulación",
+
+  "crew.gallery.header.title": "Owl Fox Crew",
+  "crew.gallery.header.subtitle": "Revolucionamos el storytelling corporativo con experiencias cinematográficas impulsadas por IA",
+
+  "crew.gallery.cards.augusto.role": "Director Creativo & Estratega Narrativo",
+  "crew.gallery.cards.augusto.tagline": "La voz que conversa, abre camino y asegura que cada historia exprese la esencia de quienes la firman.",
+  "crew.gallery.cards.augusto.description": "Orquesta la visión y la dirección de proyectos, cuidando que cada historia conserve su coherencia y fuerza narrativa. Desde la exploración inicial hasta la activación final, guía el proceso conectando sensibilidad estética con objetivos claros, claridad estratégica y conexión auténtica con los clientes.",
+  "crew.gallery.cards.augusto.hobby": "Museos + Arte + Viajes",
+  "crew.gallery.cards.augusto.food": "Gato + Charrán Ártico",
+
+  "crew.gallery.cards.camile.role": "Creadora de Conceptos & Guionista",
+  "crew.gallery.cards.camile.tagline": "Imagina escenarios, teje atmósferas y convierte las ideas en narrativas llenas de identidad.",
+  "crew.gallery.cards.camile.description": "Traduce ideas en estructuras e historias audiovisuales con sentido. Explora universos visuales y narrativos, dando forma a conceptos que luego se transforman en historias con coherencia y emoción. Su trabajo aporta dirección estética y estructura narrativa. Punto de partida y brújula creativa sobre la que el resto del equipo construye.",
+  "crew.gallery.cards.camile.hobby": "Cine independiente + Escalada",
+  "crew.gallery.cards.camile.food": "Búho",
+
+  "crew.gallery.cards.gianni.role": "Storyboard Artist & Armado de Secuencias",
+  "crew.gallery.cards.gianni.tagline": "Traza el mapa visual de cada historia, marcando ritmo, planos y emociones que guían la narrativa.",
+  "crew.gallery.cards.gianni.description": "Convierte guion y concepto en mapa visual: planos, ritmo, coherencia, lenguaje de cámara y transiciones. Previsualiza escenas para alinear intención, emoción y composición antes de producir. Su visión asegura que cada plano dialogue con el siguiente, construyendo un flujo narrativo sólido que da vida al imaginario del proyecto.",
+  "crew.gallery.cards.gianni.hobby": "Fotografía callejera + Viajes",
+  "crew.gallery.cards.gianni.food": "Halcón + Suricata",
+
+  "crew.gallery.cards.laura.role": "Productora Audiovisual & Diseño de Sonido",
+  "crew.gallery.cards.laura.tagline": "Convierte ideas en imágenes vivas y sonidos que resuenan, cuidando la esencia creativa en cada paso.",
+  "crew.gallery.cards.laura.description": "Coordina y organiza la producción audiovisual, asegurando calidad y coherencia en cada pieza. Integra el diseño sonoro desde el inicio, creando atmósferas y acentos musicales que potencian la emoción de las imágenes. Su labor equilibra lo técnico con lo sensorial para que cada entrega sea auténtica y envolvente.",
+  "crew.gallery.cards.laura.hobby": "Festivales + Electrónica",
+  "crew.gallery.cards.laura.food": "Lobo + Mono",
+
+  "crew.gallery.cards.andres.role": "Postproducción & AI Visual Artist",
+  "crew.gallery.cards.andres.tagline": "Refina cada detalle visual, equilibrando técnica e innovación para lograr un acabado cinematográfico.",
+  "crew.gallery.cards.andres.description": "Da consistencia final a cada proyecto mediante edición, colorización y efectos visuales. Integra recursos de inteligencia artificial para potenciar lo creativo y asegurar la uniformidad estética. Su trabajo aporta precisión y elegancia, preparando cada historia para comunicar el mensaje deseado y conectar con la audiencia objetivo.",
+  "crew.gallery.cards.andres.hobby": "Ilustración digital + Magic",
+  "crew.gallery.cards.andres.food": "Pingüino + Orca",
+
+  "crew.gallery.cards.claudia.role": "Atención Cliente & Coordinadora Proyectos",
+  "crew.gallery.cards.claudia.tagline": "Abre la puerta al cliente, acompaña su camino y hace que cada interacción sea clara y cercana.",
+  "crew.gallery.cards.claudia.description": "Coordina la relación con los clientes desde el primer contacto hasta la entrega final. Organiza agendas, cronogramas y flujos de trabajo, asegurando que cada etapa avance con claridad y sin fricciones. Su rol aporta orden, cuidado y humanidad, haciendo que la experiencia de trabajar con Owl Fox Crew sea fluida y memorable.",
+  "crew.gallery.cards.claudia.hobby": "Yoga + Fotografía",
+  "crew.gallery.cards.claudia.food": "Ciervo + Lince",
+
+  "crew.gallery.cards.diego.role": "Operations & Finance Manager",
+  "crew.gallery.cards.diego.tagline": "Sostiene la estructura de la manada con orden, estabilidad y visión estratégica. Seguridad en el viaje.",
+  "crew.gallery.cards.diego.description": "Administra la base operativa y financiera que da solidez a Owl Fox Crew. Supervisa presupuestos, contratos y procesos internos, garantizando que cada proyecto creativo tenga un soporte confiable y transparente. Su labor asegura estabilidad y continuidad, permitiendo que las ideas se desarrollen sin fricciones ni sobresaltos.",
+  "crew.gallery.cards.diego.hobby": "Ciclismo + Lectura + Escritura",
+  "crew.gallery.cards.diego.food": "Hormiga + León",
+
+  "crew.gallery.cta": "Habla con {name}",
+
+  "crew.backstage.title": "Nuestro ADN Creativo",
+  "crew.backstage.subtitle": "Seis instintos que marcan cómo pensamos, colaboramos y creamos con intensidad animal",
+
+  "crew.backstage.1.title": "Aleteo Sincronizado",
+  "crew.backstage.1.phrase": "Trabajo en Equipo",
+  "crew.backstage.1.sub": "Cada movimiento suma fuerza cuando la manada avanza unida.",
+
+  "crew.backstage.2.title": "Vuelo Silencioso",
+  "crew.backstage.2.phrase": "Escucha Activa",
+  "crew.backstage.2.sub": "Percibimos señales que otros confunden con ruido.",
+
+  "crew.backstage.3.title": "Olfato Agudo",
+  "crew.backstage.3.phrase": "Espíritu de Cazador",
+  "crew.backstage.3.sub": "Descubrimos caminos invisibles hasta que alguien los recorre",
+
+  "crew.backstage.4.title": "Huella Imborrable",
+  "crew.backstage.4.phrase": "Continuidad Narrativa",
+  "crew.backstage.4.sub": "Cada paso deja rastro, memoria y sentido para lo que viene.",
+
+  "crew.backstage.5.title": "Ecos del Bosque",
+  "crew.backstage.5.phrase": "Resonancia Creativa",
+  "crew.backstage.5.sub": "Las ideas se multiplican cuando la voz encuentra su tono.",
+  
+  "crew.backstage.6.title": "Somos Manada",
+  "crew.backstage.6.phrase": "Visión Conjunta",
+  "crew.backstage.6.sub": "Hacemos equipo y creemos en él, es nuestra naturaleza.",
+  
+
+  "crew.backstage.closing": "Nuestro ADN creativo revela más que procesos: muestra la energía, la pasión y el impulso transformador de una manada que convierte ideas en relatos cinematográficos capaces de cambiar la manera en que las marcas comunican. Historias con propósito, diseñadas para resonar, emocionar y consolidar identidades.",
+
+  "crew.differential.title": "La siguiente historia puede ser la tuya",
+  "crew.differential.subtitle": "Transformemos tu comunicación en experiencias cinematográficas que marquen la diferencia",
+
+  "crew.differential.text1": "Ya conociste a quienes dan vida a Owl Fox Crew. Somos creadores de relatos que transforman la comunicación de las marcas en algo más grande que un simple mensaje: historias con emoción, estrategia y estética capaces de inspirar, conectar y consolidar identidades. Un proyecto no crece solo con talento individual. Alcanza su verdadero potencial cuando existe una tripulación que piensa, crea y navega en sintonía. Nuestro crew es ese puente que une creatividad, visión y tecnología para llevar cada historia al límite e incluso cruzarlo.",
+  "crew.differential.text2": "No somos una productora tradicional. Somos una tripulación narrativa, que con cada proyecto persigue un objetivo: remar contigo hasta alcanzar historias cinematográficas con valor comunicacional, genuinas y disruptivas, siempre con la inteligencia artificial y nuestros modos como brújula.",
+  
+  "crew.closing.text": "¿Listo para comenzar a contar tu historia como nunca antes?",
+  "crew.closing.cta": "Hablemos hoy",
+
+  "pricing.hero.line1": "Lo que antes era imposible",
+  "pricing.hero.line2": "ahora lo hacemos posible",
+
+  "pricing.intro.title": "Un plan de película, una voz para tu marca",
+  "pricing.intro.subtitle": "Desde un primer acto hasta una saga en expansión, escribimos tu historia",
+
+  "pricing.intro.block1.title": "No medimos en minutos, medimos en macro",
+  "pricing.intro.block1.subtitle": "Preferimos la película al fotograma",
+  "pricing.intro.block1.text": "Vinculamos el valor al nivel real del proyecto. No importa su duración: importa que tu mensaje tenga lo necesario para permanecer en la memoria de tu audiencia.",
+  "pricing.intro.block1.alt": "Imagen ilustrativa sobre medición macro y visión de largo plazo",
+
+  "pricing.intro.block2.title": "Tu inversión siempre eleva y potencia tu marca",
+  "pricing.intro.block2.subtitle": "La calidad no se negocia, tu prestigio crece",
+  "pricing.intro.block2.text": "No tememos decir que no cuando la calidad está en riesgo, aunque eso implique no participar. Cada entrega busca reconocimiento y visibilidad para tu marca.",
+  "pricing.intro.block2.alt": "Imagen ilustrativa sobre calidad y prestigio de marca",
+
+  "pricing.intro.block3.title": "Pensamos en caminos narrativos, no en piezas sueltas",
+  "pricing.intro.block3.subtitle": "El recorrido como eje y activador",
+  "pricing.intro.block3.text": "Un clip aislado puede emocionar, y ser también el primer paso de un camino que conecta y deja huella. Diseñamos proyectando continuidad, coherencia y crecimiento.",
+  "pricing.intro.block3.alt": "Imagen ilustrativa sobre recorrido narrativo",
+
+  "pricing.intro.block4.title": "Lo que antes era para pocos, ahora es para muchos",
+  "pricing.intro.block4.subtitle": "Cinematografía = Grandes productoras",
+  "pricing.intro.block4.text": "Puedes hacerte de un lenguaje narrativo que antes estaba reservado para unos pocos, gracias a nuestra metodología, grupo de profesionales y uso de la IA.",
+  "pricing.intro.block4.alt": "Imagen ilustrativa sobre democratización de la cinematografía",
+
+  "pricing.plans.title": "Invierte en la película de tu marca",
+  "pricing.plans.subtitle": "No ofrecemos un atajo: Ofrecemos la evolución del storytelling corporativo",
+  "pricing.plans.intro": "Creamos cada contenido con el rigor de una obra cinematográfica: desde la idea, pasando por el storyboard y la animación, hasta la edición, la musicalización y la masterización. La inteligencia artificial nos permite optimizar recursos en logística, equipos y traslados, poniendo al trabajo creativo en el centro de la producción. Con nuestro modelo híbrido de IA + creatividad, cada proyecto es una inversión inteligente: optimizas recursos, maximizas beneficios y accedes a resultados de nivel cinematográfico, con toda la potencia y la calidad que tu marca merece.",
+
+  "pricing.plans.cta": "Elegir este plan",
+
+  "pricing.plans.solitario.alt": "Imagen Zorro Solitario",
+  "pricing.plans.solitario.title": "Zorro Solitario",
+  "pricing.plans.solitario.subtitle": "Agilidad · Foco · Precisión",
+  "pricing.plans.solitario.price": "EUR 1.200 - 1.800",
+  "pricing.plans.solitario.priceNote": "(según características del proyecto)",
+  "pricing.plans.solitario.services.story": "Historia: 1 Formato",
+  "pricing.plans.solitario.services.activation": "Activación: N/A",
+  "pricing.plans.solitario.description": "Un clip puede ser un relámpago que nos deslumbra: breve, fulminante e imposible de olvidar. Zorro Solitario es esa primera huella que emociona, conecta y cuenta una historia que tu marca guardaba en silencio. Una pieza única que revoluciona las comunicaciones de tu marca y habilita universos narrativos mucho más grandes, porque llegar bien una vez es llegar dos veces.",
+  "pricing.plans.solitario.feature1": "Una pieza audiovisual única de alto impacto",
+  "pricing.plans.solitario.feature2": "Narrativa cinematográfica diseñada a medida",
+  "pricing.plans.solitario.feature3": "Perfecto para activaciones estratégicas o campañas específicas",
+  "pricing.plans.solitario.feature4": "Optimizado para generar recordación inmediata en la audiencia",
+  "pricing.plans.solitario.feature5": "Adaptable y versátil en múltiples plataformas (LinkedIn, YouTube, etc.)",
+  "pricing.plans.solitario.feature6": "Primer paso estratégico hacia narrativas más amplias",
+  "pricing.plans.solitario.feature7": "Validación rápida de narrativa y mayor rapidez en creación de contenido",
+
+  "pricing.plans.parlamento.alt": "Imagen Parlamento de Búhos",
+  "pricing.plans.parlamento.title": "Parlamento de Búhos",
+  "pricing.plans.parlamento.subtitle": "Visión · Coherencia · Continuidad",
+  "pricing.plans.parlamento.price": "EUR 1.200 - 1.800",
+  "pricing.plans.parlamento.priceNote": "(según características del proyecto)",
+  "pricing.plans.parlamento.services.story": "Historia: 3 a 5 Formatos",
+  "pricing.plans.parlamento.services.activation": "Activación: N/A",
+  "pricing.plans.parlamento.description": "Conjunto audiovisual de 3 a 5 piezas que expande la historia de tu marca más allá de un solo instante. Narrativa coral que amplifica la voz de tu marca, manteniendo viva la conversación con tu audiencia y elevando tu comunicación hacia un diálogo auténtico y transformador. Un vuelo compartido, con destino claro, sincronía y ritmo, que emociona al verlo pasar.",
+  "pricing.plans.parlamento.feature1": "Paquete de 3–5 clips narrativos con cohesión estética",
+  "pricing.plans.parlamento.feature2": "Construcción de una miniserie audiovisual con continuidad",
+  "pricing.plans.parlamento.feature3": "Diseñado para mantener activa la conversación con tu audiencia",
+  "pricing.plans.parlamento.feature4": "Cada pieza refuerza y amplifica la voz de tu marca",
+  "pricing.plans.parlamento.feature5": "Narrativa coral que combina estrategia + emoción",
+  "pricing.plans.parlamento.feature6": "Ideal para sostener presencia en campañas de mediano plazo",
+  "pricing.plans.parlamento.feature7": "Mayor permanencia en memoria e identificación con la marca",
+
+  "pricing.plans.manada.alt": "Imagen Manada",
+  "pricing.plans.manada.title": "Manada",
+  "pricing.plans.manada.subtitle": "Presencia · Autoridad · Evolución",
+  "pricing.plans.manada.price": "EUR 1.200 - 1.800",
+  "pricing.plans.manada.priceNote": "(según características del proyecto)",
+  "pricing.plans.manada.services.story": "Historia: 5 o + Formatos",
+  "pricing.plans.manada.services.activation": "Activación: Activación Estratégica",
+  "pricing.plans.manada.description": "Saga de 5 o más piezas que avanza con el pulso de tu marca. Como parte de una estampida, cada entrega llega con la fuerza y seguridad de lo colectivo, amplificando tu voz, posicionándote como autoridad y consolidando tu identidad. Manada multiplica tu huella, es continuidad y evolución: narrativa que crece junto a tu marca y la impulsa con impacto sostenido en el tiempo.",
+  "pricing.plans.manada.feature1": "Serie extendida de 5 o más piezas narrativas",
+  "pricing.plans.manada.feature2": "Continuidad estratégica que acompaña el crecimiento de la marca",
+  "pricing.plans.manada.feature3": "Autoridad consolidada a través de presencia constante",
+  "pricing.plans.manada.feature4": "Producción con rigor cinematográfico y sin concesiones en calidad",
+  "pricing.plans.manada.feature5": "Capacidad de adaptación a diferentes etapas o hitos de comunicación",
+  "pricing.plans.manada.feature6": "IA aplicada para mantener consistencia estética y narrativa en todo el trayecto",
+  "pricing.plans.manada.feature7": "Impacto sostenido en el tiempo, reforzando la identidad de marca",
+
+  "pricing.plans.ecosistema.alt": "Imagen Ecosistema",
+  "pricing.plans.ecosistema.title": "Ecosistema",
+  "pricing.plans.ecosistema.subtitle": "Totalidad · Adaptación · Crecimiento",
+  "pricing.plans.ecosistema.price": "EUR 1.200 - 1.800",
+  "pricing.plans.ecosistema.priceNote": "(según características del proyecto)",
+  "pricing.plans.ecosistema.services.story": "Historia: 5 o + Formatos",
+  "pricing.plans.ecosistema.services.activation": "Activación: Experiencia 360º",
+  "pricing.plans.ecosistema.description": "Universo narrativo en expansión que integra todas las piezas en un mismo lenguaje audiovisual. Ecosistema conecta cada entrega como parte de un todo vivo, diferenciando tu marca con contenido propio cada vez más afinado y alineado a tus objetivos. Un entramado en evolución, donde cada historia comunica y la data retroalimenta al sistema periódicamente. Una experiencia única y a medida.",
+  "pricing.plans.ecosistema.feature1": "Plan integral 100% a medida, sin plantillas predefinidas",
+  "pricing.plans.ecosistema.feature2": "Construcción de un lenguaje narrativo propio para la marca",
+  "pricing.plans.ecosistema.feature3": "Integración estratégica de todas las piezas bajo un mismo sistema",
+  "pricing.plans.ecosistema.feature4": "Evolución continua: cada nueva pieza retroalimenta y optimiza el conjunto",
+  "pricing.plans.ecosistema.feature5": "Uso inteligente de IA para análisis de data y ajuste narrativo constante",
+  "pricing.plans.ecosistema.feature6": "Acompañamiento 360°: creación, activación y evolución",
+  "pricing.plans.ecosistema.feature7": "Generación de un universo audiovisual único, expansivo y memorable",
+
+  "pricing.plans.closing": "Invierte en el futuro narrativo de tu marca: con un lenguaje narrativo propio y el poder de transformar tus comunicaciones",
+
+  "pricing.comparison.title": "Compara, elige y contemos tu historia",
+  "pricing.comparison.subtitle": "Compara cada propuesta, mide su alcance y encuentra la narrativa que mejor proyecta el futuro de tu marca",
+
+  "pricing.comparison.header.item": "Ítem",
+  "pricing.comparison.header.solitario": "Zorro Solitario",
+  "pricing.comparison.header.parlamento": "Parlamento de Búhos",
+  "pricing.comparison.header.manada": "Manada",
+  "pricing.comparison.header.ecosistema": "Ecosistema",
+
+  "pricing.comparison.row1.item": "Cantidad de piezas narrativas incluidas",
+  "pricing.comparison.row1.solitario": "1 clip único",
+  "pricing.comparison.row1.parlamento": "3–5 clips conectados",
+  "pricing.comparison.row1.manada": "5 o + clips en saga",
+  "pricing.comparison.row1.ecosistema": "Definidos a medida",
+
+  "pricing.comparison.row2.item": "Continuidad narrativa",
+  "pricing.comparison.row2.solitario": "Impacto Estratégico",
+  "pricing.comparison.row2.parlamento": "Miniserie vinculante",
+  "pricing.comparison.row2.manada": "Saga con evolución",
+  "pricing.comparison.row2.ecosistema": "Ecosistema integral",
+
+  "pricing.comparison.row3.item": "Acompañamiento estratégico",
+  "pricing.comparison.row3.solitario": "Básico",
+  "pricing.comparison.row3.parlamento": "Moderado",
+  "pricing.comparison.row3.manada": "Completo",
+  "pricing.comparison.row3.ecosistema": "360° continuo",
+
+  "pricing.comparison.row4.item": "Acceso a métricas narrativas",
+  "pricing.comparison.row4.solitario": "No disponible",
+  "pricing.comparison.row4.parlamento": "Parcial",
+  "pricing.comparison.row4.manada": "Sí",
+  "pricing.comparison.row4.ecosistema": "Avanzado",
+
+  "pricing.comparison.row5.item": "Integración con equipo del cliente",
+  "pricing.comparison.row5.solitario": "Baja",
+  "pricing.comparison.row5.parlamento": "Media",
+  "pricing.comparison.row5.manada": "Alta",
+  "pricing.comparison.row5.ecosistema": "Total",
+
+  "pricing.comparison.row6.item": "Velocidad de entrega",
+  "pricing.comparison.row6.solitario": "Máxima",
+  "pricing.comparison.row6.parlamento": "Moderada",
+  "pricing.comparison.row6.manada": "A demanda",
+  "pricing.comparison.row6.ecosistema": "Flexible",
+
+  "pricing.comparison.row7.item": "Personalización del mensaje",
+  "pricing.comparison.row7.solitario": "Adaptado y puntual",
+  "pricing.comparison.row7.parlamento": "Enfocado y temático",
+  "pricing.comparison.row7.manada": "Estratégico y a largo plazo",
+  "pricing.comparison.row7.ecosistema": "Lenguaje propio a medida",
+
+  "pricing.comparison.row8.item": "Combinaciones de servicios posible",
+  "pricing.comparison.row8.solitario": "1 formato único",
+  "pricing.comparison.row8.parlamento": "Varios clips",
+  "pricing.comparison.row8.manada": "Multiservicio",
+  "pricing.comparison.row8.ecosistema": "Full mix",
+
+  "pricing.comparison.row9.item": "Escalabilidad futura del plan",
+  "pricing.comparison.row9.solitario": "Moderada",
+  "pricing.comparison.row9.parlamento": "Media",
+  "pricing.comparison.row9.manada": "Alta",
+  "pricing.comparison.row9.ecosistema": "Máxima",
+
+  "pricing.comparison.row10.item": "Efecto en audiencia",
+  "pricing.comparison.row10.solitario": "Recordación inmediata",
+  "pricing.comparison.row10.parlamento": "Conexión sostenida",
+  "pricing.comparison.row10.manada": "Construcción autoridad",
+  "pricing.comparison.row10.ecosistema": "Cambio percepción de marca",
+
+  "pricing.closing.text": "Invertir en narrativa no es un gasto, es asegurar que tu mensaje permanezca en la memoria de tu audiencia.",
+  "pricing.closing.cta.choosePlan": "Elegir mi plan ahora",
+  "pricing.closing.cta.consulting": "Quiero asesoría antes de decidir",
+
+  "resources.hero.alt": "Fondo sección Recursos",
+  "resources.hero.line1": "Conocimiento que transforma,",
+  "resources.hero.line2": "Estrategia que conecta.",
+  "resources.hero.line3": "Tu marca, contemos su historia.",
+
+  "resources.intro.title": "Súbele el volumen a la voz de tu marca, hazla inolvidable",
+  "resources.intro.subtitle": "Conocimiento, inspiración y estrategia al servicio de tu comunicación",
+  "resources.intro.paragraph1": "Cada recurso que ponemos a tu alcance es una llave que abre caminos narrativos y convierte lo cotidiano en experiencias memorables. Son guías, ideas y formatos que combinan análisis y estructura con creatividad, para que la comunicación deje de ser un trámite y se convierta en un vehículo vivo de identidad.",
+  "resources.intro.paragraph2": "Aquí encontrarás aprendizajes y perspectivas que inspiran nuevas formas de narrar, herramientas que conectan con tu audiencia y claves que refuerzan la esencia de tu marca. Una colección en constante evolución, creada para transformar tu comunicación en algo auténtico, envolvente e impactante.",
+  "resources.intro.closing": "La diferencia entre comunicar y emocionar comienza aquí.",
+
+  "resources.grid.title": "Un universo de ideas para tu marca",
+  "resources.grid.subtitle": "Explora, descarga y transforma tu comunicación con materiales creados para que cada mensaje de tu marca gane fuerza y dirección",
+
+  "resources.grid.items.1.title": "Recurso 1",
+  "resources.grid.items.1.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.1.alt": "Imagen recurso 1",
+
+  "resources.grid.items.2.title": "Recurso 2",
+  "resources.grid.items.2.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.2.alt": "Imagen recurso 2",
+
+  "resources.grid.items.3.title": "Recurso 3",
+  "resources.grid.items.3.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.3.alt": "Imagen recurso 3",
+
+  "resources.grid.items.4.title": "Recurso 4",
+  "resources.grid.items.4.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.4.alt": "Imagen recurso 4",
+
+  "resources.grid.items.5.title": "Recurso 5",
+  "resources.grid.items.5.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.5.alt": "Imagen recurso 5",
+
+  "resources.grid.items.6.title": "Recurso 6",
+  "resources.grid.items.6.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.6.alt": "Imagen recurso 6",
+
+  "resources.grid.items.7.title": "Recurso 7",
+  "resources.grid.items.7.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.7.alt": "Imagen recurso 7",
+
+  "resources.grid.items.8.title": "Recurso 8",
+  "resources.grid.items.8.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.8.alt": "Imagen recurso 8",
+
+  "resources.grid.items.9.title": "Recurso 9",
+  "resources.grid.items.9.description": "Descripción breve del recurso que explica su valor narrativo.",
+  "resources.grid.items.9.alt": "Imagen recurso 9",
+
+  "resources.grid.noMore": "No hay más recursos",
+  "resources.grid.showMore": "Mostrar más",
+  "resources.grid.showLess": "Mostrar menos",
+
+  "resources.highlight.blog.title": "Blog",
+  "resources.highlight.blog.description": "Reflexiones, aprendizajes y claves narrativas para transformar tu comunicación.",
+  "resources.highlight.blog.alt": "Imagen del blog narrativo",
+
+  "resources.highlight.podcast.title": "Podcast",
+  "resources.highlight.podcast.description": "Conversaciones que amplifican la voz de las marcas y exploran el futuro narrativo.",
+  "resources.highlight.podcast.alt": "Imagen del podcast narrativo",
+
+  "resources.closing.title": "Activa lo aprendido",
+  "resources.closing.subtitle": "Haz que cada recurso se convierta en historias que sumen valor rea",
+
+  "resources.closing.cloud": "El conocimiento inspira, pero solo cobra sentido cuando se transforma en acción. Es el momento de convertir tus ideas en movimiento y llevar lo que descubriste a la práctica, para que tu comunicación deje de ser mensajes dispersos y se convierta en relatos capaces de conectar, emocionar y abrir nuevas oportunidades.",
+
+  "resources.closing.cta.question": "Llegó la hora de llevar tus ideas a la gran pantalla",
+  "resources.closing.cta.button": "Empecemos tu historia",
+
+  "stories.hero.alt": "Fondo de la sección Historias",
+  "stories.hero.title1": "Dando voz a tu marca",
+  "stories.hero.title2": "una historia a la vez",
+
+  "stories.gallery.title": "La narrativa de tu marca es cine",
+  "stories.gallery.subtitle": "Aquí las historias que transforman tu comunicación en una experiencia memorable",
+
+  "stories.gallery.items.1.title": "Teaser de Lanzamiento",
+  "stories.gallery.items.1.format": "Vertical · TikTok / IG Reels",
+  "stories.gallery.items.1.description": "Un clip breve y potente para anunciar un gran lanzamiento.",
+  "stories.gallery.items.1.alt": "Miniatura teaser de lanzamiento",
+
+  "stories.gallery.items.2.title": "Narrativa Corporativa",
+  "stories.gallery.items.2.format": "Horizontal · YouTube",
+  "stories.gallery.items.2.description": "Una pieza estratégica para presentar visión y valores.",
+  "stories.gallery.items.2.alt": "Miniatura narrativa corporativa",
+
+  "stories.gallery.items.3.title": "Resumen de Evento",
+  "stories.gallery.items.3.format": "Cuadrado · LinkedIn",
+  "stories.gallery.items.3.description": "Un resumen visual que revive los momentos clave.",
+  "stories.gallery.items.3.alt": "Miniatura resumen de evento",
+
+  "stories.closing.text": "Cada historia es un puente que conecta tu marca con nuevas audiencias. Lo que compartes hoy puede convertirse en el recuerdo que perdure mañana. Hagamos que cada relato tenga la fuerza de lo cinematográfico.",
+  "stories.closing.ctaText": "¿Listo para que tu marca cuente algo inolvidable?",
+  "stories.closing.ctaButton": "Comencemos tu Historia"
+
 }
