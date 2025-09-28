@@ -19,8 +19,16 @@ try {
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['cdn.sanity.io']
-  }
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.sanity.io',
+        pathname: '/images/**',
+      },
+      // Si usás archivos (no solo imágenes) desde Sanity:
+      // { protocol: 'https', hostname: 'cdn.sanity.io', pathname: '/files/**' },
+    ],
+  },
 };
 
 export default nextConfig;
