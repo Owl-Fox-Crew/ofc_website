@@ -1,0 +1,28 @@
+{
+  "brandValues": [
+    {
+      "path": "/images/brand-values/identity.jpg",
+      "purpose": "Narrative with soul"
+    },
+    {
+      "path": "/images/brand-values/connection.jpg",
+      "purpose": "Authentic connection"
+    },
+    {
+      "path": "/images/brand-values/strategy.jpg",
+      "purpose": "Creative strategy"
+    },
+    {
+      "path": "/images/brand-values/direction.jpg",
+      "purpose": "Emotional direction"
+    },
+    {
+      "path": "/images/brand-values/efficiency.jpg",
+      "purpose": "Intelligent efficiency"
+    },
+    {
+      "path": "/images/brand-values/scalable.jpg",
+      "purpose": "Scalable structure"
+    }
+  ]
+}
