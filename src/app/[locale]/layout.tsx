@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import IntlProviderClient from "@/components/IntlProviderClient";
+import { ThemeProvider } from "@/providers/ThemeProvider";
+import { MotionProvider } from "@/providers/MotionProvider";
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "es" }];
@@ -34,9 +36,13 @@ export default async function LocaleLayout({
     <html lang={safeLocale} className="dark">
       <body className="bg-black text-white antialiased">
         <IntlProviderClient locale={safeLocale} messages={messages}>
-          <Header />
-          <main>{children}</main>
-          <Footer />
+          <ThemeProvider>
+            <MotionProvider>
+              <Header />
+              <main>{children}</main>
+              <Footer />
+            </MotionProvider>
+          </ThemeProvider>
         </IntlProviderClient>
       </body>
     </html>

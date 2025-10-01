@@ -84,7 +84,7 @@ export default function TeamCards() {
   ];
 
   return (
-    <section className="relative w-full bg-black text-white px-6 md:px-12 py-6 overflow-hidden">
+    <section className="relative w-full bg-black text-white px-6 md:px-12 overflow-hidden">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-orange">
           {intl.formatMessage({ id: "crew.gallery.header.title" })}

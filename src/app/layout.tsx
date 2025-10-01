@@ -1,10 +1,11 @@
 import { ReactNode } from 'react';
 import IntlWrapper from '@/components/IntlWrapper';
+import './globals.css'; // Asegurar que esto esté
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html>
-      <body>
+    <html lang="en">
+      <body className="antialiased text-white bg-black overflow-x-hidden">
         <IntlWrapper>{children}</IntlWrapper>
       </body>
     </html>

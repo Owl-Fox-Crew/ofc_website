@@ -50,5 +50,4 @@ pnpm-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
-src/locales/en/index 2.json
-src/locales/en/index 2.json
+

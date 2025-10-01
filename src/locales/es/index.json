@@ -443,7 +443,7 @@
   "services.formatSolutions.blocks.experience.summary.2": "La Experiencia 360º es ideal para marcas que buscan construir una comunicación sólida en el tiempo, entendiéndola como un recorrido en constante evolución. Lejos de ser una acción aislada, es un viaje narrativo donde cada activación abre la puerta a la siguiente, genera un impacto sostenido y consolida vínculos reales con la audiencia.",
   "services.formatSolutions.blocks.experience.cta": "Quiero iniciar mi experiencia 360º",
 
-    "services.formatSolutions.timeline.DefaultActivacion.label": "Activación Estratégica",
+  "services.formatSolutions.timeline.DefaultActivacion.label": "Activación Estratégica",
   "services.formatSolutions.timeline.DefaultActivacion.title": "Micro-workflow de la Activación Estratégica",
   "services.formatSolutions.timeline.DefaultActivacion.subtitle": "Un recorrido breve y enfocado",
   "services.formatSolutions.timeline.DefaultActivacion.text": "Pensado como un workflow dentro del workflow madre. Esta línea temporal refleja las fases que aseguran que cada lanzamiento tenga dirección, impacto y aprendizaje.",
