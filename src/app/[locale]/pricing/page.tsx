@@ -1,10 +1,10 @@
 "use client";
 
-import PricingHero from "@/components/pricing/PricingHero";
-import PricingIntro from "@/components/pricing/PricingIntro";
-import PricingPlans from "@/components/pricing/PricingPlans";
-import PricingComparison from "@/components/pricing/PricingComparison";
-import PricingClosing from "@/components/pricing/PricingClosing";
+import PricingHero from "@/components/pricing/pricinghero";
+import PricingIntro from "@/components/pricing/pricingintro";
+import PricingPlans from "@/components/pricing/pricingplans";
+import PricingComparison from "@/components/pricing/pricingcomparison";
+import PricingClosing from "@/components/pricing/pricingclosing";
 
 export default function Pricing() {
   return (

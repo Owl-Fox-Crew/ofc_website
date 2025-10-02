@@ -1,10 +1,10 @@
 // src/app/[locale]/services/page.tsx
-import SectionHero from "@/components/services/SectionHero";
-import ServicesIntro from "@/components/services/ServicesIntro";
-import FormatGuide from "@/components/services/FormatGuide";
-import FormatQuickSelector from "@/components/services/FormatQuickSelector";
-import FormatHelp from "@/components/services/FormatHelp";
-import FormatSolutions from "@/components/services/FormatSolutions";
+import SectionHero from "@/components/services/sectionhero";
+import ServicesIntro from "@/components/services/servicesintro";
+import FormatGuide from "@/components/services/formatguide";
+import FormatQuickSelector from "@/components/services/formatquickselector";
+import FormatHelp from "@/components/services/formathelp";
+import FormatSolutions from "@/components/services/formatsolutions";
 
 export default function ServicesPage() {
   return (

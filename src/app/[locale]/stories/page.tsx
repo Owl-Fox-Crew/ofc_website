@@ -1,8 +1,8 @@
 "use client";
 
-import StoriesHero from "@/components/stories/StoriesHero";
-import StoriesGallery from "@/components/stories/StoriesGallery";
-import StoriesClosing from "@/components/stories/StoriesClosing";
+import StoriesHero from "@/components/stories/storieshero";
+import StoriesGallery from "@/components/stories/storiesgallery";
+import StoriesClosing from "@/components/stories/storiesclosing";
 
 export default function Stories() {
   return (

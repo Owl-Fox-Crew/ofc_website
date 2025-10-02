@@ -2,9 +2,9 @@ import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import IntlProviderClient from "@/components/IntlProviderClient";
-import { ThemeProvider } from "@/providers/ThemeProvider";
-import { MotionProvider } from "@/providers/MotionProvider";
+import IntlProviderClient from "@/components/intlproviderclient";
+import { ThemeProvider } from "@/providers/themeprovider";
+import { MotionProvider } from "@/providers/motionprovider";
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "es" }];

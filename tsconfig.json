@@ -14,6 +14,10 @@
     "jsx": "preserve",
     "target": "es2015",
     "downlevelIteration": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
     "plugins": [
       {
         "name": "next"

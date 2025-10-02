@@ -1,10 +1,10 @@
 "use client";
 
-import ResourcesHero from "@/components/resources/ResourcesHero";
-import ResourcesIntro from "@/components/resources/ResourcesIntro";
-import ResourcesGrid from "@/components/resources/ResourcesGrid";
-import ResourcesHighlight from "@/components/resources/ResourcesHighlight";
-import ResourcesClosing from "@/components/resources/ResourcesClosing";
+import ResourcesHero from "@/components/resources/resourceshero";
+import ResourcesIntro from "@/components/resources/resourcesintro";
+import ResourcesGrid from "@/components/resources/resourcesgrid";
+import ResourcesHighlight from "@/components/resources/resourceshighlight";
+import ResourcesClosing from "@/components/resources/resourcesclosing";
 
 export default function Resources() {
   return (

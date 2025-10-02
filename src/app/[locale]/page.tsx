@@ -1,11 +1,11 @@
-import Hero from '@/components/home/Hero';
-import BrandValues from '@/components/home/BrandValues';
-import ValueOffer from '@/components/home/ValueOffer';
-import CommunicationKeys from '@/components/home/CommunicationKeys';
-import Workflow from '@/components/home/Workflow';
-import BrandStories from '@/components/home/BrandStories';
-import FAQs from '@/components/home/FAQs';
-import FAQForm from '@/components/home/FAQForm';
+import Hero from '@/components/home/hero';
+import BrandValues from '@/components/home/brandvalues';
+import ValueOffer from '@/components/home/valueoffer';
+import CommunicationKeys from '@/components/home/communicationkeys';
+import Workflow from '@/components/home/workflow';
+import BrandStories from '@/components/home/brandstories';
+import FAQs from '@/components/home/faqs';
+import FAQForm from '@/components/home/faqform';
 
 export default function HomePage() {
   return (

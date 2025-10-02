@@ -1,11 +1,11 @@
 "use client";
 
-import CrewHero from "@/components/Crew/CrewHero";
-import CrewIntro from "@/components/Crew/CrewIntro";
-import CrewGallery from "@/components/Crew/CrewGallery";
-import CrewBackstage from "@/components/Crew/CrewBackstage";
-import CrewDifferential from "@/components/Crew/CrewDifferential";
-import CrewClosing from "@/components/Crew/CrewClosing";
+import CrewHero from "@/components/crew/crewhero";
+import CrewIntro from "@/components/crew/crewintro";
+import CrewGallery from "@/components/crew/crewgallery";
+import CrewBackstage from "@/components/crew/crewbackstage";
+import CrewDifferential from "@/components/crew/crewdifferential";
+import CrewClosing from "@/components/crew/crewclosing";
 
 export default function Crew() {
   return (
