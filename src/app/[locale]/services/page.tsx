@@ -1,20 +1,16 @@
-// src/app/(routes)/services/page.tsx
+// src/app/[locale]/services/page.tsx
 import SectionHero from "@/components/services/SectionHero";
 import ServicesIntro from "@/components/services/ServicesIntro";
 import FormatGuide from "@/components/services/FormatGuide";
 import FormatQuickSelector from "@/components/services/FormatQuickSelector";
 import FormatHelp from "@/components/services/FormatHelp";
-import FormatSolutions from "@/components/services/FormatSolutions"; // ⬅️ reemplazo
+import FormatSolutions from "@/components/services/FormatSolutions";
 
 export default function ServicesPage() {
   return (
     <main>
       {/* HERO de apertura de Services */}
-      <SectionHero
-        backgroundImage="/images/services/Hero.png"
-        headlineLine1="Deja ser visto,"
-        headlineLine2="empieza a ser escuchado"
-      />
+      <SectionHero backgroundImage="/images/services/Hero.png" />
 
       {/* APERTURA – Beneficios de contar tu historia */}
       <ServicesIntro />
