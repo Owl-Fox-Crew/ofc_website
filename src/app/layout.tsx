@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import IntlWrapper from '@/components/IntlWrapper';
+import IntlWrapper from '@/components/intlwrapper';
 import './globals.css'; // Asegurar que esto esté
 
 export default function RootLayout({ children }: { children: ReactNode }) {
