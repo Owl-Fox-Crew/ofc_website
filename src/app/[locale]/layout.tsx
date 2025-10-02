@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { notFound } from "next/navigation";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 import IntlProviderClient from "@/components/IntlProviderClient";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import { MotionProvider } from "@/providers/MotionProvider";
